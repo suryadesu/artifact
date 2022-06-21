@@ -124,6 +124,16 @@ import matplotlib.pyplot as plt
 def vs_tau():
     tau_range = []
     success_prob_range = []
+    success_model_val = []
+    
+    with open("../../prism/results/tau.csv",'r') as fin:
+        fin.readline()
+        while True:
+            line = fin.readline()
+            if not line:
+                break
+            a,b = line.split(',')
+            success_model_val.append(float(b))
     for tau in range(0, 51, 5):
         if tau == 0 :
             tau = 0.0000001
@@ -139,12 +149,13 @@ def vs_tau():
 
     print(f'tau_range: {tau_range}')
     print(f'success_prob_range: {success_prob_range}')
-    fig, ax = plt.subplots()
+    fig, ax = plt.subplots() 
     ax.plot(tau_range, success_prob_range, color = 'blue')
+    ax.plot(tau_range,success_model_val,color='red')
     ax.set_ylim(ymin=0, ymax=1)
     plt.xlabel('tau')
     plt.ylabel('Success Probability')
-    plt.show()
+    plt.savefig('tau.png')
 
 def read_xls():
     pass
