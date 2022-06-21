@@ -1,0 +1,768 @@
+c protocol start with partner b
+Start Time of Entanglement Generation: 3000500000000
+d protocol start with partner c
+Start Time of Entanglement Generation: 3000500000000
+b protocol start with partner a
+Start Time of Entanglement Generation: 3000500000000
+b protocol start with partner c
+Start Time of Entanglement Generation: 3001000000000
+c protocol start with partner d
+Start Time of Entanglement Generation: 3001000000000
+a protocol start with partner b
+Start Time of Entanglement Generation: 3001000000000
+a failed entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x167f05d90> 
+Time of entanglement failure: 3001750175000
+b failed entanglement of memory with the node:  a  <sequence.components.memory.Memory object at 0x168382fd0> 
+Time of entanglement failure: 3001750175000
+c failed entanglement of memory with the node:  d  <sequence.components.memory.Memory object at 0x168396c40> 
+Time of entanglement failure: 3001750175000
+d failed entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683aa730> 
+Time of entanglement failure: 3001750175000
+b protocol start with partner a
+Start Time of Entanglement Generation: 3002250175000
+d protocol start with partner c
+Start Time of Entanglement Generation: 3002250175000
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x168396b80> 
+Time of entanglement success: 3002250175010.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683860d0> 
+Time of entanglement success: 3002250175010.0
+a protocol start with partner b
+Start Time of Entanglement Generation: 3002750175000
+c protocol start with partner d
+Start Time of Entanglement Generation: 3002750175000
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a  <sequence.components.memory.Memory object at 0x168382fd0> 
+Time of entanglement success: 3004000350010.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d  <sequence.components.memory.Memory object at 0x168396c40> 
+Time of entanglement success: 3004000350010.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x167f05d90> 
+Time of entanglement success: 3004000350010.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683aa730> 
+Time of entanglement success: 3004000350010.0
+c protocol start with partner b
+Start Time of Entanglement Generation: 3006500350010
+b protocol start with partner c
+Start Time of Entanglement Generation: 3007000350010
+b failed entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683860d0> 
+Time of entanglement failure: 3008250525010
+c failed entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x168396b80> 
+Time of entanglement failure: 3008250525010
+c protocol start with partner b
+Start Time of Entanglement Generation: 3008750525010
+b protocol start with partner c
+Start Time of Entanglement Generation: 3009250525010
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683860d0> 
+Time of entanglement success: 3010500700020.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x168396b80> 
+Time of entanglement success: 3010500700020.0
+b protocol start with partner a
+Start Time of Entanglement Generation: 3102000000000
+d protocol start with partner c
+Start Time of Entanglement Generation: 3102000350010
+a protocol start with partner b
+Start Time of Entanglement Generation: 3102500000000
+c protocol start with partner d
+Start Time of Entanglement Generation: 3102500350010
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a  <sequence.components.memory.Memory object at 0x168382fd0> 
+Time of entanglement success: 3103750175010.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x167f05d90> 
+Time of entanglement success: 3103750175010.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683aa730> 
+Time of entanglement success: 3103750525020.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d  <sequence.components.memory.Memory object at 0x168396c40> 
+Time of entanglement success: 3103750525020.0
+c protocol start with partner b
+Start Time of Entanglement Generation: 3106250175010
+b protocol start with partner c
+Start Time of Entanglement Generation: 3106750175010
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x168396b80> 
+Time of entanglement success: 3108000350020.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683860d0> 
+Time of entanglement success: 3108000350020.0
+b protocol start with partner a
+Start Time of Entanglement Generation: 3110250525010
+d protocol start with partner c
+Start Time of Entanglement Generation: 3110750175010
+a protocol start with partner b
+Start Time of Entanglement Generation: 3110750525010
+c protocol start with partner d
+Start Time of Entanglement Generation: 3111250175010
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a  <sequence.components.memory.Memory object at 0x168382fd0> 
+Time of entanglement success: 3112000700020.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x167f05d90> 
+Time of entanglement success: 3112000700020.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683aa730> 
+Time of entanglement success: 3112500350020.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d  <sequence.components.memory.Memory object at 0x168396c40> 
+Time of entanglement success: 3112500350020.0
+c protocol start with partner b
+Start Time of Entanglement Generation: 3114500700020
+b protocol start with partner c
+Start Time of Entanglement Generation: 3115000700020
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x168396b80> 
+Time of entanglement success: 3116250875030.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683860d0> 
+Time of entanglement success: 3116250875030.0
+b protocol start with partner a
+Start Time of Entanglement Generation: 3207750175010
+d protocol start with partner c
+Start Time of Entanglement Generation: 3208000700020
+a protocol start with partner b
+Start Time of Entanglement Generation: 3208250175010
+c protocol start with partner d
+Start Time of Entanglement Generation: 3208500700020
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a  <sequence.components.memory.Memory object at 0x168382fd0> 
+Time of entanglement success: 3209500350020.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x167f05d90> 
+Time of entanglement success: 3209500350020.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683aa730> 
+Time of entanglement success: 3209750875030.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d  <sequence.components.memory.Memory object at 0x168396c40> 
+Time of entanglement success: 3209750875030.0
+c protocol start with partner b
+Start Time of Entanglement Generation: 3212000350020
+b protocol start with partner c
+Start Time of Entanglement Generation: 3212500350020
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x168396b80> 
+Time of entanglement success: 3213750525030.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683860d0> 
+Time of entanglement success: 3213750525030.0
+b protocol start with partner a
+Start Time of Entanglement Generation: 3216000700020
+d protocol start with partner c
+Start Time of Entanglement Generation: 3216500350020
+a protocol start with partner b
+Start Time of Entanglement Generation: 3216500700020
+c protocol start with partner d
+Start Time of Entanglement Generation: 3217000350020
+c failed entanglement of memory with the node:  d  <sequence.components.memory.Memory object at 0x168396c40> 
+Time of entanglement failure: 3217750525020
+d failed entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683aa730> 
+Time of entanglement failure: 3217750525020
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a  <sequence.components.memory.Memory object at 0x168382fd0> 
+Time of entanglement success: 3217750875030.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x167f05d90> 
+Time of entanglement success: 3217750875030.0
+d protocol start with partner c
+Start Time of Entanglement Generation: 3218250525020
+c protocol start with partner d
+Start Time of Entanglement Generation: 3218750525020
+c failed entanglement of memory with the node:  d  <sequence.components.memory.Memory object at 0x168396c40> 
+Time of entanglement failure: 3219500700020
+d failed entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683aa730> 
+Time of entanglement failure: 3219500700020
+d protocol start with partner c
+Start Time of Entanglement Generation: 3220000700020
+c protocol start with partner d
+Start Time of Entanglement Generation: 3220500700020
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683aa730> 
+Time of entanglement success: 3221750875030.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d  <sequence.components.memory.Memory object at 0x168396c40> 
+Time of entanglement success: 3221750875030.0
+c protocol start with partner b
+Start Time of Entanglement Generation: 3223250875030
+b protocol start with partner c
+Start Time of Entanglement Generation: 3223750875030
+c failed entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x168396b80> 
+Time of entanglement failure: 3225001050040.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683860d0> 
+Time of entanglement success: 3225001050040.0
+d protocol start with partner c
+Start Time of Entanglement Generation: 3313250875030
+b protocol start with partner a
+Start Time of Entanglement Generation: 3313500350020
+c protocol start with partner d
+Start Time of Entanglement Generation: 3313750875030
+a protocol start with partner b
+Start Time of Entanglement Generation: 3314000350020
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683aa730> 
+Time of entanglement success: 3315001050040.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d  <sequence.components.memory.Memory object at 0x168396c40> 
+Time of entanglement success: 3315001050040.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x167f05d90> 
+Time of entanglement success: 3315250525030.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a  <sequence.components.memory.Memory object at 0x168382fd0> 
+Time of entanglement success: 3315250525030.0
+c protocol start with partner b
+Start Time of Entanglement Generation: 3324750875030
+b protocol start with partner c
+Start Time of Entanglement Generation: 3325250875030
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x168396b80> 
+Time of entanglement success: 3326501050040.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683860d0> 
+Time of entanglement success: 3326501050040.0
+c protocol start with partner b
+Start Time of Entanglement Generation: 3329001050040
+b protocol start with partner c
+Start Time of Entanglement Generation: 3329501050040
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x168396b80> 
+Time of entanglement success: 3330751225050.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683860d0> 
+Time of entanglement success: 3330751225050.0
+d protocol start with partner c
+Start Time of Entanglement Generation: 3414501050040
+b protocol start with partner a
+Start Time of Entanglement Generation: 3414750875030
+c protocol start with partner d
+Start Time of Entanglement Generation: 3415001050040
+a protocol start with partner b
+Start Time of Entanglement Generation: 3415250875030
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683aa730> 
+Time of entanglement success: 3416251225050.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d  <sequence.components.memory.Memory object at 0x168396c40> 
+Time of entanglement success: 3416251225050.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a  <sequence.components.memory.Memory object at 0x168382fd0> 
+Time of entanglement success: 3416501050040.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x167f05d90> 
+Time of entanglement success: 3416501050040.0
+c protocol start with partner b
+Start Time of Entanglement Generation: 3419001050040
+b protocol start with partner c
+Start Time of Entanglement Generation: 3419501050040
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x168396b80> 
+Time of entanglement success: 3420751225050.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683860d0> 
+Time of entanglement success: 3420751225050.0
+d protocol start with partner c
+Start Time of Entanglement Generation: 3430501050040
+b protocol start with partner a
+Start Time of Entanglement Generation: 3430501050040
+c protocol start with partner d
+Start Time of Entanglement Generation: 3431001050040
+a protocol start with partner b
+Start Time of Entanglement Generation: 3431001050040
+c failed entanglement of memory with the node:  d  <sequence.components.memory.Memory object at 0x168396c40> 
+Time of entanglement failure: 3432251225040
+d failed entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683aa730> 
+Time of entanglement failure: 3432251225040
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a  <sequence.components.memory.Memory object at 0x168382fd0> 
+Time of entanglement success: 3432251225050.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x167f05d90> 
+Time of entanglement success: 3432251225050.0
+d protocol start with partner c
+Start Time of Entanglement Generation: 3432751225040
+c protocol start with partner d
+Start Time of Entanglement Generation: 3433251225040
+c failed entanglement of memory with the node:  d  <sequence.components.memory.Memory object at 0x168396c40> 
+Time of entanglement failure: 3434501400040
+d failed entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683aa730> 
+Time of entanglement failure: 3434501400040
+d protocol start with partner c
+Start Time of Entanglement Generation: 3435001400040
+c protocol start with partner d
+Start Time of Entanglement Generation: 3435501400040
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683aa730> 
+Time of entanglement success: 3436751575050.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d  <sequence.components.memory.Memory object at 0x168396c40> 
+Time of entanglement success: 3436751575050.0
+c protocol start with partner b
+Start Time of Entanglement Generation: 3438751225050
+b protocol start with partner c
+Start Time of Entanglement Generation: 3439251225050
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x168396b80> 
+Time of entanglement success: 3440501400060.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683860d0> 
+Time of entanglement success: 3440501400060.0
+d protocol start with partner c
+Start Time of Entanglement Generation: 3520251575050
+b protocol start with partner a
+Start Time of Entanglement Generation: 3520501050040
+c protocol start with partner d
+Start Time of Entanglement Generation: 3520751575050
+a protocol start with partner b
+Start Time of Entanglement Generation: 3521001050040
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683aa730> 
+Time of entanglement success: 3522001750060.0
+c failed entanglement of memory with the node:  d  <sequence.components.memory.Memory object at 0x168396c40> 
+Time of entanglement failure: 3522001750060.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a  <sequence.components.memory.Memory object at 0x168382fd0> 
+Time of entanglement success: 3522251225050.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x167f05d90> 
+Time of entanglement success: 3522251225050.0
+b protocol start with partner a
+Start Time of Entanglement Generation: 3540251225050
+c protocol start with partner b
+Start Time of Entanglement Generation: 3540751225050
+a protocol start with partner b
+Start Time of Entanglement Generation: 3540751225050
+b protocol start with partner c
+Start Time of Entanglement Generation: 3541251225050
+b failed entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683860d0> 
+Time of entanglement failure: 3542001400050
+c failed entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x168396b80> 
+Time of entanglement failure: 3542001400050
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x167f05d90> 
+Time of entanglement success: 3542001400060.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a  <sequence.components.memory.Memory object at 0x168382fd0> 
+Time of entanglement success: 3542001400060.0
+c protocol start with partner b
+Start Time of Entanglement Generation: 3542501400050
+b protocol start with partner c
+Start Time of Entanglement Generation: 3543001400050
+c failed entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x168396b80> 
+Time of entanglement failure: 3544251575060.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683860d0> 
+Time of entanglement success: 3544251575060.0
+d protocol start with partner c
+Start Time of Entanglement Generation: 3621501750060
+c protocol start with partner d
+Start Time of Entanglement Generation: 3622001750060
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d  <sequence.components.memory.Memory object at 0x168396c40> 
+Time of entanglement success: 3623251925070.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683aa730> 
+Time of entanglement success: 3623251925070.0
+b protocol start with partner a
+Start Time of Entanglement Generation: 3641751225050
+a protocol start with partner b
+Start Time of Entanglement Generation: 3642251225050
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a  <sequence.components.memory.Memory object at 0x168382fd0> 
+Time of entanglement success: 3643501400060.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x167f05d90> 
+Time of entanglement success: 3643501400060.0
+c protocol start with partner b
+Start Time of Entanglement Generation: 3644001400050
+b protocol start with partner c
+Start Time of Entanglement Generation: 3644501400050
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x168396b80> 
+Time of entanglement success: 3645751575060.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683860d0> 
+Time of entanglement success: 3645751575060.0
+c protocol start with partner b
+Start Time of Entanglement Generation: 3648251575060
+b protocol start with partner c
+Start Time of Entanglement Generation: 3648751575060
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x168396b80> 
+Time of entanglement success: 3650001750070.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683860d0> 
+Time of entanglement success: 3650001750070.0
+d protocol start with partner c
+Start Time of Entanglement Generation: 3722751575060
+b protocol start with partner a
+Start Time of Entanglement Generation: 3723001750060
+c protocol start with partner d
+Start Time of Entanglement Generation: 3723251575060
+a protocol start with partner b
+Start Time of Entanglement Generation: 3723501750060
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683aa730> 
+Time of entanglement success: 3724501750070.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d  <sequence.components.memory.Memory object at 0x168396c40> 
+Time of entanglement success: 3724501750070.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a  <sequence.components.memory.Memory object at 0x168382fd0> 
+Time of entanglement success: 3724751925070.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x167f05d90> 
+Time of entanglement success: 3724751925070.0
+c protocol start with partner b
+Start Time of Entanglement Generation: 3727251925070
+b protocol start with partner c
+Start Time of Entanglement Generation: 3727751925070
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x168396b80> 
+Time of entanglement success: 3729002100080.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683860d0> 
+Time of entanglement success: 3729002100080.0
+b protocol start with partner a
+Start Time of Entanglement Generation: 3749751575060
+d protocol start with partner c
+Start Time of Entanglement Generation: 3749751925070
+a protocol start with partner b
+Start Time of Entanglement Generation: 3750251575060
+c protocol start with partner d
+Start Time of Entanglement Generation: 3750251925070
+b failed entanglement of memory with the node:  a  <sequence.components.memory.Memory object at 0x168382fd0> 
+Time of entanglement failure: 3751501750070.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x167f05d90> 
+Time of entanglement success: 3751501750070.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d  <sequence.components.memory.Memory object at 0x168396c40> 
+Time of entanglement success: 3751502100080.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683aa730> 
+Time of entanglement success: 3751502100080.0
+c protocol start with partner b
+Start Time of Entanglement Generation: 3828751925070
+b protocol start with partner c
+Start Time of Entanglement Generation: 3829251925070
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x168396b80> 
+Time of entanglement success: 3830502100080.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683860d0> 
+Time of entanglement success: 3830502100080.0
+b protocol start with partner a
+Start Time of Entanglement Generation: 3851251575060
+d protocol start with partner c
+Start Time of Entanglement Generation: 3851251925070
+a protocol start with partner b
+Start Time of Entanglement Generation: 3851751575060
+c protocol start with partner d
+Start Time of Entanglement Generation: 3851751925070
+c failed entanglement of memory with the node:  d  <sequence.components.memory.Memory object at 0x168396c40> 
+Time of entanglement failure: 3852502100070
+d failed entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683aa730> 
+Time of entanglement failure: 3852502100070
+a failed entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x167f05d90> 
+Time of entanglement failure: 3853001750060
+b failed entanglement of memory with the node:  a  <sequence.components.memory.Memory object at 0x168382fd0> 
+Time of entanglement failure: 3853001750060
+d protocol start with partner c
+Start Time of Entanglement Generation: 3853002100070
+b protocol start with partner a
+Start Time of Entanglement Generation: 3853501750060
+c protocol start with partner d
+Start Time of Entanglement Generation: 3853502100070
+a protocol start with partner b
+Start Time of Entanglement Generation: 3854001750060
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683aa730> 
+Time of entanglement success: 3854752275080.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d  <sequence.components.memory.Memory object at 0x168396c40> 
+Time of entanglement success: 3854752275080.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x167f05d90> 
+Time of entanglement success: 3855251925070.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a  <sequence.components.memory.Memory object at 0x168382fd0> 
+Time of entanglement success: 3855251925070.0
+c protocol start with partner b
+Start Time of Entanglement Generation: 3857751925070
+b protocol start with partner c
+Start Time of Entanglement Generation: 3858251925070
+b failed entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683860d0> 
+Time of entanglement failure: 3859002100070
+c failed entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x168396b80> 
+Time of entanglement failure: 3859002100070
+c protocol start with partner b
+Start Time of Entanglement Generation: 3859502100070
+b protocol start with partner c
+Start Time of Entanglement Generation: 3860002100070
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x168396b80> 
+Time of entanglement success: 3861252275080.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683860d0> 
+Time of entanglement success: 3861252275080.0
+d protocol start with partner c
+Start Time of Entanglement Generation: 3930251925070
+b protocol start with partner a
+Start Time of Entanglement Generation: 3930251925070
+c protocol start with partner d
+Start Time of Entanglement Generation: 3930751925070
+a protocol start with partner b
+Start Time of Entanglement Generation: 3930751925070
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a  <sequence.components.memory.Memory object at 0x168382fd0> 
+Time of entanglement success: 3932002100080.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683aa730> 
+Time of entanglement success: 3932002100080.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x167f05d90> 
+Time of entanglement success: 3932002100080.0
+c failed entanglement of memory with the node:  d  <sequence.components.memory.Memory object at 0x168396c40> 
+Time of entanglement failure: 3932002100080.0
+c protocol start with partner b
+Start Time of Entanglement Generation: 3960502100080
+b protocol start with partner a
+Start Time of Entanglement Generation: 3961002100070
+b protocol start with partner c
+Start Time of Entanglement Generation: 3961002100080
+a protocol start with partner b
+Start Time of Entanglement Generation: 3961502100070
+b failed entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683860d0> 
+Time of entanglement failure: 3962252275080
+c failed entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x168396b80> 
+Time of entanglement failure: 3962252275080
+c protocol start with partner b
+Start Time of Entanglement Generation: 3962752275080
+b failed entanglement of memory with the node:  a  <sequence.components.memory.Memory object at 0x168382fd0> 
+Time of entanglement failure: 3962752275080.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x167f05d90> 
+Time of entanglement success: 3962752275080.0
+b protocol start with partner c
+Start Time of Entanglement Generation: 3963252275080
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b  <sequence.components.memory.Memory object at 0x168396b80> 
+Time of entanglement success: 3964502450090.0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c  <sequence.components.memory.Memory object at 0x1683860d0> 
+Time of entanglement success: 3964502450090.0
+A memories
+Index:	Entangled Node:	Fidelity:	Entanglement Time:	State:
+0     	b              	0.9349367588934053	3.9627522750799997	OCCUPIED
+1     	None           	0        	-1e-12	RAW
+2     	None           	0        	-1e-12	RAW
+3     	None           	0        	-1e-12	RAW
+4     	None           	0        	-1e-12	RAW
+5     	None           	0        	-1e-12	RAW
+6     	None           	0        	-1e-12	RAW
+7     	None           	0        	-1e-12	RAW
+8     	None           	0        	-1e-12	RAW
+9     	None           	0        	-1e-12	RAW
+10    	None           	0        	-1e-12	RAW
+11    	None           	0        	-1e-12	RAW
+12    	None           	0        	-1e-12	RAW
+13    	None           	0        	-1e-12	RAW
+14    	None           	0        	-1e-12	RAW
+15    	None           	0        	-1e-12	RAW
+16    	None           	0        	-1e-12	RAW
+17    	None           	0        	-1e-12	RAW
+18    	None           	0        	-1e-12	RAW
+19    	None           	0        	-1e-12	RAW
+20    	None           	0        	-1e-12	RAW
+21    	None           	0        	-1e-12	RAW
+22    	None           	0        	-1e-12	RAW
+23    	None           	0        	-1e-12	RAW
+24    	None           	0        	-1e-12	RAW
+25    	None           	0        	-1e-12	RAW
+26    	None           	0        	-1e-12	RAW
+27    	None           	0        	-1e-12	RAW
+28    	None           	0        	-1e-12	RAW
+29    	None           	0        	-1e-12	RAW
+30    	None           	0        	-1e-12	RAW
+31    	None           	0        	-1e-12	RAW
+32    	None           	0        	-1e-12	RAW
+33    	None           	0        	-1e-12	RAW
+34    	None           	0        	-1e-12	RAW
+35    	None           	0        	-1e-12	RAW
+36    	None           	0        	-1e-12	RAW
+37    	None           	0        	-1e-12	RAW
+38    	None           	0        	-1e-12	RAW
+39    	None           	0        	-1e-12	RAW
+40    	None           	0        	-1e-12	RAW
+41    	None           	0        	-1e-12	RAW
+42    	None           	0        	-1e-12	RAW
+43    	None           	0        	-1e-12	RAW
+44    	None           	0        	-1e-12	RAW
+45    	None           	0        	-1e-12	RAW
+46    	None           	0        	-1e-12	RAW
+47    	None           	0        	-1e-12	RAW
+48    	None           	0        	-1e-12	RAW
+49    	None           	0        	-1e-12	RAW
+B memories
+Index:	Entangled Node:	Fidelity:	Entanglement Time:
+0     	None           	0        	3.9627522750799997	OCCUPIED
+1     	c              	0.9349367588934053	3.96450245009	ENTANGLED
+2     	None           	0        	-1e-12	RAW
+3     	None           	0        	-1e-12	RAW
+4     	None           	0        	-1e-12	RAW
+5     	None           	0        	-1e-12	RAW
+6     	None           	0        	-1e-12	RAW
+7     	None           	0        	-1e-12	RAW
+8     	None           	0        	-1e-12	RAW
+9     	None           	0        	-1e-12	RAW
+10    	None           	0        	-1e-12	RAW
+11    	None           	0        	-1e-12	RAW
+12    	None           	0        	-1e-12	RAW
+13    	None           	0        	-1e-12	RAW
+14    	None           	0        	-1e-12	RAW
+15    	None           	0        	-1e-12	RAW
+16    	None           	0        	-1e-12	RAW
+17    	None           	0        	-1e-12	RAW
+18    	None           	0        	-1e-12	RAW
+19    	None           	0        	-1e-12	RAW
+20    	None           	0        	-1e-12	RAW
+21    	None           	0        	-1e-12	RAW
+22    	None           	0        	-1e-12	RAW
+23    	None           	0        	-1e-12	RAW
+24    	None           	0        	-1e-12	RAW
+25    	None           	0        	-1e-12	RAW
+26    	None           	0        	-1e-12	RAW
+27    	None           	0        	-1e-12	RAW
+28    	None           	0        	-1e-12	RAW
+29    	None           	0        	-1e-12	RAW
+30    	None           	0        	-1e-12	RAW
+31    	None           	0        	-1e-12	RAW
+32    	None           	0        	-1e-12	RAW
+33    	None           	0        	-1e-12	RAW
+34    	None           	0        	-1e-12	RAW
+35    	None           	0        	-1e-12	RAW
+36    	None           	0        	-1e-12	RAW
+37    	None           	0        	-1e-12	RAW
+38    	None           	0        	-1e-12	RAW
+39    	None           	0        	-1e-12	RAW
+40    	None           	0        	-1e-12	RAW
+41    	None           	0        	-1e-12	RAW
+42    	None           	0        	-1e-12	RAW
+43    	None           	0        	-1e-12	RAW
+44    	None           	0        	-1e-12	RAW
+45    	None           	0        	-1e-12	RAW
+46    	None           	0        	-1e-12	RAW
+47    	None           	0        	-1e-12	RAW
+48    	None           	0        	-1e-12	RAW
+49    	None           	0        	-1e-12	RAW
+C memories
+Index:	Entangled Node:	Fidelity:	Entanglement Time:
+0     	b              	0.9349367588934053	3.96450245009	OCCUPIED
+1     	None           	0        	3.99900210008	OCCUPIED
+2     	None           	0        	-1e-12	RAW
+3     	None           	0        	-1e-12	RAW
+4     	None           	0        	-1e-12	RAW
+5     	None           	0        	-1e-12	RAW
+6     	None           	0        	-1e-12	RAW
+7     	None           	0        	-1e-12	RAW
+8     	None           	0        	-1e-12	RAW
+9     	None           	0        	-1e-12	RAW
+10    	None           	0        	-1e-12	RAW
+11    	None           	0        	-1e-12	RAW
+12    	None           	0        	-1e-12	RAW
+13    	None           	0        	-1e-12	RAW
+14    	None           	0        	-1e-12	RAW
+15    	None           	0        	-1e-12	RAW
+16    	None           	0        	-1e-12	RAW
+17    	None           	0        	-1e-12	RAW
+18    	None           	0        	-1e-12	RAW
+19    	None           	0        	-1e-12	RAW
+20    	None           	0        	-1e-12	RAW
+21    	None           	0        	-1e-12	RAW
+22    	None           	0        	-1e-12	RAW
+23    	None           	0        	-1e-12	RAW
+24    	None           	0        	-1e-12	RAW
+25    	None           	0        	-1e-12	RAW
+26    	None           	0        	-1e-12	RAW
+27    	None           	0        	-1e-12	RAW
+28    	None           	0        	-1e-12	RAW
+29    	None           	0        	-1e-12	RAW
+30    	None           	0        	-1e-12	RAW
+31    	None           	0        	-1e-12	RAW
+32    	None           	0        	-1e-12	RAW
+33    	None           	0        	-1e-12	RAW
+34    	None           	0        	-1e-12	RAW
+35    	None           	0        	-1e-12	RAW
+36    	None           	0        	-1e-12	RAW
+37    	None           	0        	-1e-12	RAW
+38    	None           	0        	-1e-12	RAW
+39    	None           	0        	-1e-12	RAW
+40    	None           	0        	-1e-12	RAW
+41    	None           	0        	-1e-12	RAW
+42    	None           	0        	-1e-12	RAW
+43    	None           	0        	-1e-12	RAW
+44    	None           	0        	-1e-12	RAW
+45    	None           	0        	-1e-12	RAW
+46    	None           	0        	-1e-12	RAW
+47    	None           	0        	-1e-12	RAW
+48    	None           	0        	-1e-12	RAW
+49    	None           	0        	-1e-12	RAW
+D memories
+Index:	Entangled Node:	Fidelity:	Entanglement Time:	State:
+0     	c              	0.9349367588934053	3.93200210008	OCCUPIED
+1     	None           	0        	-1e-12	RAW
+2     	None           	0        	-1e-12	RAW
+3     	None           	0        	-1e-12	RAW
+4     	None           	0        	-1e-12	RAW
+5     	None           	0        	-1e-12	RAW
+6     	None           	0        	-1e-12	RAW
+7     	None           	0        	-1e-12	RAW
+8     	None           	0        	-1e-12	RAW
+9     	None           	0        	-1e-12	RAW
+10    	None           	0        	-1e-12	RAW
+11    	None           	0        	-1e-12	RAW
+12    	None           	0        	-1e-12	RAW
+13    	None           	0        	-1e-12	RAW
+14    	None           	0        	-1e-12	RAW
+15    	None           	0        	-1e-12	RAW
+16    	None           	0        	-1e-12	RAW
+17    	None           	0        	-1e-12	RAW
+18    	None           	0        	-1e-12	RAW
+19    	None           	0        	-1e-12	RAW
+20    	None           	0        	-1e-12	RAW
+21    	None           	0        	-1e-12	RAW
+22    	None           	0        	-1e-12	RAW
+23    	None           	0        	-1e-12	RAW
+24    	None           	0        	-1e-12	RAW
+25    	None           	0        	-1e-12	RAW
+26    	None           	0        	-1e-12	RAW
+27    	None           	0        	-1e-12	RAW
+28    	None           	0        	-1e-12	RAW
+29    	None           	0        	-1e-12	RAW
+30    	None           	0        	-1e-12	RAW
+31    	None           	0        	-1e-12	RAW
+32    	None           	0        	-1e-12	RAW
+33    	None           	0        	-1e-12	RAW
+34    	None           	0        	-1e-12	RAW
+35    	None           	0        	-1e-12	RAW
+36    	None           	0        	-1e-12	RAW
+37    	None           	0        	-1e-12	RAW
+38    	None           	0        	-1e-12	RAW
+39    	None           	0        	-1e-12	RAW
+40    	None           	0        	-1e-12	RAW
+41    	None           	0        	-1e-12	RAW
+42    	None           	0        	-1e-12	RAW
+43    	None           	0        	-1e-12	RAW
+44    	None           	0        	-1e-12	RAW
+45    	None           	0        	-1e-12	RAW
+46    	None           	0        	-1e-12	RAW
+47    	None           	0        	-1e-12	RAW
+48    	None           	0        	-1e-12	RAW
+49    	None           	0        	-1e-12	RAW

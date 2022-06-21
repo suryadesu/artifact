@@ -1,0 +1,2691 @@
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 1
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 1
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 1
+protocol.name : EGA.d.MemoryArray[0],   execution_count: 1
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 1
+protocol.name : EGA.a.MemoryArray[0],   execution_count: 1
+c protocol start with partner b
+Start Time of Entanglement Generation: 3000500000000
+d protocol start with partner c
+Start Time of Entanglement Generation: 3000500000000
+b protocol start with partner a
+Start Time of Entanglement Generation: 3000500000000
+b protocol start with partner c
+Start Time of Entanglement Generation: 3001000000000
+c protocol start with partner d
+Start Time of Entanglement Generation: 3001000000000
+a protocol start with partner b
+Start Time of Entanglement Generation: 3001000000000
+a failed entanglement of memory with the node:  b
+Time of entanglement failure: 3001750175000
+Start Time: 3.001 , End Time: 3.0017501749999997 , execution time: 0.000750175
+execution counter: 1
+protocol.name : EGA.a.MemoryArray[0],   execution_count: 2
+b failed entanglement of memory with the node:  a
+Time of entanglement failure: 3001750175000
+Start Time: 3.0004999999999997 , End Time: 3.0017501749999997 , execution time: 0.001250175
+execution counter: 1
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 2
+b protocol start with partner a
+Start Time of Entanglement Generation: 3002250175000
+c failed entanglement of memory with the node:  d
+Time of entanglement failure: 3002250175000
+Start Time: 3.001 , End Time: 3.002250175 , execution time: 0.001250175
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 2
+d failed entanglement of memory with the node:  c
+Time of entanglement failure: 3002250175000
+Start Time: 3.0004999999999997 , End Time: 3.002250175 , execution time: 0.0017501749999999999
+execution counter: 1
+protocol.name : EGA.d.MemoryArray[0],   execution_count: 2
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b
+Time of entanglement success: 3002250175010.0
+Start Time: 3.0004999999999997 , End Time: 3.00225017501 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.c.MemoryArray[0],   execution_count: 1
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c
+Time of entanglement success: 3002250175010.0
+Start Time: 3.001 , End Time: 3.00225017501 , execution time: 0.00125017501
+execution counter: 1
+a protocol start with partner b
+Start Time of Entanglement Generation: 3002750175000
+d protocol start with partner c
+Start Time of Entanglement Generation: 3002750175000
+c protocol start with partner d
+Start Time of Entanglement Generation: 3003250175000
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a
+Time of entanglement success: 3004000350010.0
+Start Time: 3.002250175 , End Time: 3.00400035001 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESA.b.MemoryArray[0].b.MemoryArray[1],   execution_count: 1
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b
+Time of entanglement success: 3004000350010.0
+Start Time: 3.002750175 , End Time: 3.00400035001 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 1
+a SWAPPING end protocol start with partner b
+c SWAPPING end protocol start with partner b
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c
+Time of entanglement success: 3004500350010.0
+Start Time: 3.002750175 , End Time: 3.00450035001 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.d.MemoryArray[0],   execution_count: 1
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d
+Time of entanglement success: 3004500350010.0
+Start Time: 3.003250175 , End Time: 3.00450035001 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 3
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 2
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 2
+Entanglement swap successful between ('a', 'c')
+Start Time: 3.00450035001 , End Time: 3.00550035001 , execution time: 0.001
+protocol.name : ESA.c.MemoryArray[0].c.MemoryArray[1],   execution_count: 1
+Entanglement swap successful between ('c', 'a')
+Start Time: 3.00450035001 , End Time: 3.00550035001 , execution time: 0.001
+a SWAPPING end protocol start with partner c
+d SWAPPING end protocol start with partner c
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 3
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 2
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 3
+c protocol start with partner b
+Start Time of Entanglement Generation: 3006500350010
+Entanglement swap failed between ('a', None)
+protocol.name : EGA.a.MemoryArray[0],   execution_count: 3
+Start Time: 3.00600035001 , End Time: 3.0070003500099998 , execution time: 0.001
+Entanglement swap failed between ('d', None)
+protocol.name : EGA.d.MemoryArray[0],   execution_count: 3
+Start Time: 3.00600035001 , End Time: 3.0070003500099998 , execution time: 0.001
+d protocol start with partner c
+Start Time of Entanglement Generation: 3007000350010
+b protocol start with partner c
+Start Time of Entanglement Generation: 3007000350010
+b protocol start with partner a
+Start Time of Entanglement Generation: 3007500350010
+c protocol start with partner d
+Start Time of Entanglement Generation: 3007500350010
+a protocol start with partner b
+Start Time of Entanglement Generation: 3008000350010
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b
+Time of entanglement success: 3008250525020.0
+Start Time: 3.00650035001 , End Time: 3.00825052502 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.c.MemoryArray[0],   execution_count: 2
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c
+Time of entanglement success: 3008250525020.0
+Start Time: 3.0070003500099998 , End Time: 3.00825052502 , execution time: 0.00125017501
+execution counter: 1
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d
+Time of entanglement success: 3008750525020.0
+Start Time: 3.00750035001 , End Time: 3.00875052502 , execution time: 0.00125017501
+execution counter: 1
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c
+Time of entanglement success: 3008750525020.0
+Start Time: 3.0070003500099998 , End Time: 3.00875052502 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.d.MemoryArray[0],   execution_count: 2
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b
+Time of entanglement success: 3009250525020.0
+Start Time: 3.00800035001 , End Time: 3.00925052502 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 3
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a
+Time of entanglement success: 3009250525020.0
+Start Time: 3.00750035001 , End Time: 3.00925052502 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESA.b.MemoryArray[0].b.MemoryArray[1],   execution_count: 2
+a SWAPPING end protocol start with partner b
+c SWAPPING end protocol start with partner b
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 4
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 4
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 4
+Entanglement swap successful between ('a', 'c')
+Start Time: 3.00975052502 , End Time: 3.0107505250199997 , execution time: 0.001
+protocol.name : ESA.c.MemoryArray[0].c.MemoryArray[1],   execution_count: 2
+Entanglement swap successful between ('c', 'a')
+Start Time: 3.00975052502 , End Time: 3.0107505250199997 , execution time: 0.001
+a SWAPPING end protocol start with partner c
+d SWAPPING end protocol start with partner c
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 5
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 3
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 4
+c protocol start with partner b
+Start Time of Entanglement Generation: 3011750525020
+Entanglement swap successful between ('a', 'd')
+Start Time: 3.01125052502 , End Time: 3.01225052502 , execution time: 0.001
+Entanglement swap successful between ('d', 'a')
+Start Time: 3.01125052502 , End Time: 3.01225052502 , execution time: 0.001
+b protocol start with partner c
+Start Time of Entanglement Generation: 3012250525020
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 5
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b
+Time of entanglement success: 3013500700030.0
+Start Time: 3.01175052502 , End Time: 3.01350070003 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.c.MemoryArray[0],   execution_count: 3
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c
+Time of entanglement success: 3013500700030.0
+Start Time: 3.01225052502 , End Time: 3.01350070003 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 6
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 7
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 8
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 9
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 10
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 11
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 12
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 13
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 14
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 15
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 16
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 17
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 18
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 19
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 20
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 21
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 22
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 23
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 24
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 25
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 26
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 27
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 28
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 29
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 30
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 31
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 32
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 33
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 34
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 35
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 36
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 37
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 38
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 39
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 40
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 41
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 42
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 43
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 44
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 45
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 46
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 47
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 48
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 49
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 50
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 51
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 52
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 53
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 54
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 55
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 56
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 57
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 58
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 59
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 60
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 61
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 62
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 63
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 64
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 65
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 66
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 67
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 68
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 69
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 70
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 71
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 72
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 73
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 74
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 75
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 76
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 77
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 78
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 79
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 80
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 81
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 82
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 83
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 84
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 85
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 86
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 87
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 88
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 89
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 90
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 91
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 92
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 93
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 94
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 95
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 96
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 97
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 98
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 99
+protocol.name : EGA.a.MemoryArray[0],   execution_count: 4
+protocol.name : EGA.d.MemoryArray[0],   execution_count: 4
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 100
+b protocol start with partner a
+Start Time of Entanglement Generation: 3108000350010
+d protocol start with partner c
+Start Time of Entanglement Generation: 3108250525020
+a protocol start with partner b
+Start Time of Entanglement Generation: 3108500350010
+c protocol start with partner d
+Start Time of Entanglement Generation: 3108750525020
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a
+Time of entanglement success: 3109750525020.0
+Start Time: 3.1080003500099997 , End Time: 3.10975052502 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESA.b.MemoryArray[0].b.MemoryArray[1],   execution_count: 3
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b
+Time of entanglement success: 3109750525020.0
+Start Time: 3.10850035001 , End Time: 3.10975052502 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 5
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c
+Time of entanglement success: 3110000700030.0
+Start Time: 3.10825052502 , End Time: 3.11000070003 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.d.MemoryArray[0],   execution_count: 3
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d
+Time of entanglement success: 3110000700030.0
+Start Time: 3.10875052502 , End Time: 3.11000070003 , execution time: 0.00125017501
+execution counter: 1
+a SWAPPING end protocol start with partner b
+c SWAPPING end protocol start with partner b
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 5
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 6
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 6
+Entanglement swap successful between ('a', 'c')
+Start Time: 3.11025052502 , End Time: 3.11125052502 , execution time: 0.001
+protocol.name : ESA.c.MemoryArray[0].c.MemoryArray[1],   execution_count: 3
+Entanglement swap successful between ('c', 'a')
+Start Time: 3.11025052502 , End Time: 3.11125052502 , execution time: 0.001
+a SWAPPING end protocol start with partner c
+d SWAPPING end protocol start with partner c
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 7
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 4
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 101
+c protocol start with partner b
+Start Time of Entanglement Generation: 3112250525020
+Entanglement swap failed between ('a', 'd')
+protocol.name : EGA.a.MemoryArray[0],   execution_count: 5
+Start Time: 3.11175052502 , End Time: 3.11275052502 , execution time: 0.001
+Entanglement swap failed between ('d', 'a')
+protocol.name : EGA.d.MemoryArray[0],   execution_count: 5
+Start Time: 3.11175052502 , End Time: 3.11275052502 , execution time: 0.001
+d protocol start with partner c
+Start Time of Entanglement Generation: 3112750525020
+b protocol start with partner c
+Start Time of Entanglement Generation: 3112750525020
+b protocol start with partner a
+Start Time of Entanglement Generation: 3113250525020
+c protocol start with partner d
+Start Time of Entanglement Generation: 3113250525020
+b failed entanglement of memory with the node:  c
+Time of entanglement failure: 3113500700020
+Start Time: 3.11275052502 , End Time: 3.11350070002 , execution time: 0.000750175
+execution counter: 1
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 8
+c failed entanglement of memory with the node:  b
+Time of entanglement failure: 3113500700020
+Start Time: 3.11225052502 , End Time: 3.11350070002 , execution time: 0.001250175
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 5
+a protocol start with partner b
+Start Time of Entanglement Generation: 3113750525020
+c protocol start with partner b
+Start Time of Entanglement Generation: 3114000700020
+b protocol start with partner c
+Start Time of Entanglement Generation: 3114500700020
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c
+Time of entanglement success: 3114500700030.0
+Start Time: 3.11275052502 , End Time: 3.11450070003 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.d.MemoryArray[0],   execution_count: 4
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d
+Time of entanglement success: 3114500700030.0
+Start Time: 3.1132505250199998 , End Time: 3.11450070003 , execution time: 0.00125017501
+execution counter: 1
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a
+Time of entanglement success: 3115000700030.0
+Start Time: 3.1132505250199998 , End Time: 3.11500070003 , execution time: 0.00175017501
+execution counter: 1
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b
+Time of entanglement success: 3115000700030.0
+Start Time: 3.11375052502 , End Time: 3.11500070003 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 7
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c
+Time of entanglement success: 3115750875030.0
+Start Time: 3.11450070002 , End Time: 3.11575087503 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : ESA.b.MemoryArray[1].b.MemoryArray[0],   execution_count: 4
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b
+Time of entanglement success: 3115750875030.0
+Start Time: 3.11400070002 , End Time: 3.11575087503 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.c.MemoryArray[0],   execution_count: 4
+c SWAPPING end protocol start with partner b
+a SWAPPING end protocol start with partner b
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 9
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 6
+protocol.name : ESA.c.MemoryArray[0].c.MemoryArray[1],   execution_count: 4
+Entanglement swap successful between ('c', 'a')
+Start Time: 3.11625087503 , End Time: 3.11725087503 , execution time: 0.001
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 8
+Entanglement swap successful between ('a', 'c')
+Start Time: 3.11625087503 , End Time: 3.11725087503 , execution time: 0.001
+a SWAPPING end protocol start with partner c
+d SWAPPING end protocol start with partner c
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 10
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 6
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 102
+c protocol start with partner b
+Start Time of Entanglement Generation: 3118250875030
+Entanglement swap successful between ('a', 'd')
+Start Time: 3.11775087503 , End Time: 3.11875087503 , execution time: 0.001
+Entanglement swap successful between ('d', 'a')
+Start Time: 3.11775087503 , End Time: 3.11875087503 , execution time: 0.001
+b protocol start with partner c
+Start Time of Entanglement Generation: 3118750875030
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 103
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b
+Time of entanglement success: 3120001050040.0
+Start Time: 3.1182508750299998 , End Time: 3.12000105004 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.c.MemoryArray[0],   execution_count: 5
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c
+Time of entanglement success: 3120001050040.0
+Start Time: 3.11875087503 , End Time: 3.12000105004 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 104
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 105
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 106
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 107
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 108
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 109
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 110
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 111
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 112
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 113
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 114
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 115
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 116
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 117
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 118
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 119
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 120
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 121
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 122
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 123
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 124
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 125
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 126
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 127
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 128
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 129
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 130
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 131
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 132
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 133
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 134
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 135
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 136
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 137
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 138
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 139
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 140
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 141
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 142
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 143
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 144
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 145
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 146
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 147
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 148
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 149
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 150
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 151
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 152
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 153
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 154
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 155
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 156
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 157
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 158
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 159
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 160
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 161
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 162
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 163
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 164
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 165
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 166
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 167
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 168
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 169
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 170
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 171
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 172
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 173
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 174
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 175
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 176
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 177
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 178
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 179
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 180
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 181
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 182
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 183
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 184
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 185
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 186
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 187
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 188
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 189
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 190
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 191
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 192
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 193
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 194
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 195
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 196
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 197
+protocol.name : EGA.a.MemoryArray[0],   execution_count: 6
+protocol.name : EGA.d.MemoryArray[0],   execution_count: 6
+d protocol start with partner c
+Start Time of Entanglement Generation: 3213750875030
+b protocol start with partner a
+Start Time of Entanglement Generation: 3214250525020
+c protocol start with partner d
+Start Time of Entanglement Generation: 3214250875030
+a protocol start with partner b
+Start Time of Entanglement Generation: 3214750525020
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c
+Time of entanglement success: 3215501050040.0
+Start Time: 3.21375087503 , End Time: 3.21550105004 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.d.MemoryArray[0],   execution_count: 5
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d
+Time of entanglement success: 3215501050040.0
+Start Time: 3.21425087503 , End Time: 3.21550105004 , execution time: 0.00125017501
+execution counter: 1
+a failed entanglement of memory with the node:  b
+Time of entanglement failure: 3216000700020
+Start Time: 3.21475052502 , End Time: 3.21600070002 , execution time: 0.001250175
+execution counter: 1
+protocol.name : EGA.a.MemoryArray[0],   execution_count: 7
+b failed entanglement of memory with the node:  a
+Time of entanglement failure: 3216000700020
+Start Time: 3.2142505250199997 , End Time: 3.21600070002 , execution time: 0.0017501749999999999
+execution counter: 1
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 7
+b protocol start with partner a
+Start Time of Entanglement Generation: 3216500700020
+a protocol start with partner b
+Start Time of Entanglement Generation: 3217000700020
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a
+Time of entanglement success: 3218250875030.0
+Start Time: 3.21650070002 , End Time: 3.21825087503 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESA.b.MemoryArray[0].b.MemoryArray[1],   execution_count: 5
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b
+Time of entanglement success: 3218250875030.0
+Start Time: 3.21700070002 , End Time: 3.21825087503 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 9
+a SWAPPING end protocol start with partner b
+c SWAPPING end protocol start with partner b
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 8
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 11
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 7
+Entanglement swap failed between ('a', 'c')
+protocol.name : EGA.a.MemoryArray[0],   execution_count: 8
+Start Time: 3.21875087503 , End Time: 3.21975087503 , execution time: 0.001
+c protocol start with partner b
+Start Time of Entanglement Generation: 3219750875030
+b protocol start with partner a
+Start Time of Entanglement Generation: 3220250875030
+b protocol start with partner c
+Start Time of Entanglement Generation: 3220250875030
+a protocol start with partner b
+Start Time of Entanglement Generation: 3220750875030
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b
+Time of entanglement success: 3221501050040.0
+Start Time: 3.21975087503 , End Time: 3.22150105004 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.c.MemoryArray[0],   execution_count: 6
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c
+Time of entanglement success: 3221501050040.0
+Start Time: 3.22025087503 , End Time: 3.22150105004 , execution time: 0.00125017501
+execution counter: 1
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a
+Time of entanglement success: 3222001050040.0
+Start Time: 3.22025087503 , End Time: 3.22200105004 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESA.b.MemoryArray[0].b.MemoryArray[1],   execution_count: 6
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b
+Time of entanglement success: 3222001050040.0
+Start Time: 3.22075087503 , End Time: 3.22200105004 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 10
+a SWAPPING end protocol start with partner b
+c SWAPPING end protocol start with partner b
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 9
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 12
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 11
+Entanglement swap successful between ('a', 'c')
+Start Time: 3.22250105004 , End Time: 3.22350105004 , execution time: 0.001
+protocol.name : ESA.c.MemoryArray[0].c.MemoryArray[1],   execution_count: 5
+Entanglement swap successful between ('c', 'a')
+Start Time: 3.22250105004 , End Time: 3.22350105004 , execution time: 0.001
+a SWAPPING end protocol start with partner c
+d SWAPPING end protocol start with partner c
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 13
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 8
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 198
+c protocol start with partner b
+Start Time of Entanglement Generation: 3224501050040
+Entanglement swap successful between ('a', 'd')
+Start Time: 3.22400105004 , End Time: 3.22500105004 , execution time: 0.001
+Entanglement swap successful between ('d', 'a')
+Start Time: 3.22400105004 , End Time: 3.22500105004 , execution time: 0.001
+b protocol start with partner c
+Start Time of Entanglement Generation: 3225001050040
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 199
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b
+Time of entanglement success: 3226251225050.0
+Start Time: 3.2245010500399998 , End Time: 3.22625122505 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.c.MemoryArray[0],   execution_count: 7
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c
+Time of entanglement success: 3226251225050.0
+Start Time: 3.22500105004 , End Time: 3.22625122505 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 200
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 201
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 202
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 203
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 204
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 205
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 206
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 207
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 208
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 209
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 210
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 211
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 212
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 213
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 214
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 215
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 216
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 217
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 218
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 219
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 220
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 221
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 222
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 223
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 224
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 225
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 226
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 227
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 228
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 229
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 230
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 231
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 232
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 233
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 234
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 235
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 236
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 237
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 238
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 239
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 240
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 241
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 242
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 243
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 244
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 245
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 246
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 247
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 248
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 249
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 250
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 251
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 252
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 253
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 254
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 255
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 256
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 257
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 258
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 259
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 260
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 261
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 262
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 263
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 264
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 265
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 266
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 267
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 268
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 269
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 270
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 271
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 272
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 273
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 274
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 275
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 276
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 277
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 278
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 279
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 280
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 281
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 282
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 283
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 284
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 285
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 286
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 287
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 288
+protocol.name : EGA.a.MemoryArray[0],   execution_count: 9
+protocol.name : EGA.d.MemoryArray[0],   execution_count: 7
+d protocol start with partner c
+Start Time of Entanglement Generation: 3315001050040
+b protocol start with partner a
+Start Time of Entanglement Generation: 3315250875030
+c protocol start with partner d
+Start Time of Entanglement Generation: 3315501050040
+a protocol start with partner b
+Start Time of Entanglement Generation: 3315750875030
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c
+Time of entanglement success: 3316751225050.0
+Start Time: 3.31500105004 , End Time: 3.31675122505 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.d.MemoryArray[0],   execution_count: 6
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d
+Time of entanglement success: 3316751225050.0
+Start Time: 3.31550105004 , End Time: 3.31675122505 , execution time: 0.00125017501
+execution counter: 1
+a failed entanglement of memory with the node:  b
+Time of entanglement failure: 3317001050030
+Start Time: 3.31575087503 , End Time: 3.31700105003 , execution time: 0.001250175
+execution counter: 1
+protocol.name : EGA.a.MemoryArray[0],   execution_count: 10
+b failed entanglement of memory with the node:  a
+Time of entanglement failure: 3317001050030
+Start Time: 3.31525087503 , End Time: 3.31700105003 , execution time: 0.0017501749999999999
+execution counter: 1
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 10
+b protocol start with partner a
+Start Time of Entanglement Generation: 3317501050030
+a protocol start with partner b
+Start Time of Entanglement Generation: 3318001050030
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a
+Time of entanglement success: 3319251225040.0
+Start Time: 3.3175010500299997 , End Time: 3.31925122504 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESA.b.MemoryArray[0].b.MemoryArray[1],   execution_count: 7
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b
+Time of entanglement success: 3319251225040.0
+Start Time: 3.31800105003 , End Time: 3.31925122504 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 12
+a SWAPPING end protocol start with partner b
+c SWAPPING end protocol start with partner b
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 11
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 14
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 13
+Entanglement swap successful between ('a', 'c')
+Start Time: 3.31975122504 , End Time: 3.32075122504 , execution time: 0.001
+protocol.name : ESA.c.MemoryArray[0].c.MemoryArray[1],   execution_count: 6
+Entanglement swap successful between ('c', 'a')
+Start Time: 3.31975122504 , End Time: 3.32075122504 , execution time: 0.001
+a SWAPPING end protocol start with partner c
+d SWAPPING end protocol start with partner c
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 15
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 9
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 289
+c protocol start with partner b
+Start Time of Entanglement Generation: 3321751225040
+Entanglement swap successful between ('a', 'd')
+Start Time: 3.32125122504 , End Time: 3.32225122504 , execution time: 0.001
+Entanglement swap successful between ('d', 'a')
+Start Time: 3.32125122504 , End Time: 3.32225122504 , execution time: 0.001
+b protocol start with partner c
+Start Time of Entanglement Generation: 3322251225040
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 290
+b failed entanglement of memory with the node:  c
+Time of entanglement failure: 3323001400040
+Start Time: 3.32225122504 , End Time: 3.32300140004 , execution time: 0.000750175
+execution counter: 1
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 16
+c failed entanglement of memory with the node:  b
+Time of entanglement failure: 3323001400040
+Start Time: 3.32175122504 , End Time: 3.32300140004 , execution time: 0.001250175
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 10
+c protocol start with partner b
+Start Time of Entanglement Generation: 3323501400040
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 291
+b protocol start with partner c
+Start Time of Entanglement Generation: 3324001400040
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 292
+b failed entanglement of memory with the node:  c
+Time of entanglement failure: 3324751575040
+Start Time: 3.3240014000399998 , End Time: 3.32475157504 , execution time: 0.000750175
+execution counter: 1
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 17
+c failed entanglement of memory with the node:  b
+Time of entanglement failure: 3324751575040
+Start Time: 3.32350140004 , End Time: 3.32475157504 , execution time: 0.001250175
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 11
+c protocol start with partner b
+Start Time of Entanglement Generation: 3325251575040
+protocol.name : EGA.a.MemoryArray[0],   execution_count: 11
+protocol.name : EGA.d.MemoryArray[0],   execution_count: 8
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 293
+b protocol start with partner c
+Start Time of Entanglement Generation: 3325751575040
+b protocol start with partner a
+Start Time of Entanglement Generation: 3326001050040
+d protocol start with partner c
+Start Time of Entanglement Generation: 3326251225040
+a protocol start with partner b
+Start Time of Entanglement Generation: 3326501050040
+c protocol start with partner d
+Start Time of Entanglement Generation: 3326751225040
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b
+Time of entanglement success: 3327001750050.0
+Start Time: 3.32525157504 , End Time: 3.32700175005 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.c.MemoryArray[0],   execution_count: 8
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c
+Time of entanglement success: 3327001750050.0
+Start Time: 3.32575157504 , End Time: 3.32700175005 , execution time: 0.00125017501
+execution counter: 1
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b
+Time of entanglement success: 3327751225050.0
+Start Time: 3.32650105004 , End Time: 3.32775122505 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 14
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a
+Time of entanglement success: 3327751225050.0
+Start Time: 3.32600105004 , End Time: 3.32775122505 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESA.b.MemoryArray[0].b.MemoryArray[1],   execution_count: 8
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d
+Time of entanglement success: 3328001400050.0
+Start Time: 3.3267512250399998 , End Time: 3.32800140005 , execution time: 0.00125017501
+execution counter: 1
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c
+Time of entanglement success: 3328001400050.0
+Start Time: 3.32625122504 , End Time: 3.32800140005 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.d.MemoryArray[0],   execution_count: 7
+a SWAPPING end protocol start with partner b
+c SWAPPING end protocol start with partner b
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 12
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 18
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 15
+Entanglement swap successful between ('a', 'c')
+Start Time: 3.32825122505 , End Time: 3.32925122505 , execution time: 0.001
+protocol.name : ESA.c.MemoryArray[0].c.MemoryArray[1],   execution_count: 7
+Entanglement swap successful between ('c', 'a')
+Start Time: 3.32825122505 , End Time: 3.32925122505 , execution time: 0.001
+a SWAPPING end protocol start with partner c
+d SWAPPING end protocol start with partner c
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 19
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 12
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 294
+c protocol start with partner b
+Start Time of Entanglement Generation: 3330251225050
+Entanglement swap successful between ('a', 'd')
+Start Time: 3.32975122505 , End Time: 3.3307512250499998 , execution time: 0.001
+Entanglement swap successful between ('d', 'a')
+Start Time: 3.32975122505 , End Time: 3.3307512250499998 , execution time: 0.001
+b protocol start with partner c
+Start Time of Entanglement Generation: 3330751225050
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 295
+b failed entanglement of memory with the node:  c
+Time of entanglement failure: 3331501400050
+Start Time: 3.3307512250499998 , End Time: 3.33150140005 , execution time: 0.000750175
+execution counter: 1
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 20
+c failed entanglement of memory with the node:  b
+Time of entanglement failure: 3331501400050
+Start Time: 3.33025122505 , End Time: 3.33150140005 , execution time: 0.001250175
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 13
+c protocol start with partner b
+Start Time of Entanglement Generation: 3332001400050
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 296
+b protocol start with partner c
+Start Time of Entanglement Generation: 3332501400050
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 297
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b
+Time of entanglement success: 3333751575060.0
+Start Time: 3.33200140005 , End Time: 3.33375157506 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.c.MemoryArray[0],   execution_count: 9
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c
+Time of entanglement success: 3333751575060.0
+Start Time: 3.33250140005 , End Time: 3.33375157506 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 298
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 299
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 300
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 301
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 302
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 303
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 304
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 305
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 306
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 307
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 308
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 309
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 310
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 311
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 312
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 313
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 314
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 315
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 316
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 317
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 318
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 319
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 320
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 321
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 322
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 323
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 324
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 325
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 326
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 327
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 328
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 329
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 330
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 331
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 332
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 333
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 334
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 335
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 336
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 337
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 338
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 339
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 340
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 341
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 342
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 343
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 344
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 345
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 346
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 347
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 348
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 349
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 350
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 351
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 352
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 353
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 354
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 355
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 356
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 357
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 358
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 359
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 360
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 361
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 362
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 363
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 364
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 365
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 366
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 367
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 368
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 369
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 370
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 371
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 372
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 373
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 374
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 375
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 376
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 377
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 378
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 379
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 380
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 381
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 382
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 383
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 384
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 385
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 386
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 387
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 388
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 389
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 390
+protocol.name : EGA.a.MemoryArray[0],   execution_count: 12
+protocol.name : EGA.d.MemoryArray[0],   execution_count: 9
+d protocol start with partner c
+Start Time of Entanglement Generation: 3426751225050
+b protocol start with partner a
+Start Time of Entanglement Generation: 3426751575040
+c protocol start with partner d
+Start Time of Entanglement Generation: 3427251225050
+a protocol start with partner b
+Start Time of Entanglement Generation: 3427251575040
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c
+Time of entanglement success: 3428501400060.0
+Start Time: 3.42675122505 , End Time: 3.42850140006 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.d.MemoryArray[0],   execution_count: 8
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d
+Time of entanglement success: 3428501400060.0
+Start Time: 3.42725122505 , End Time: 3.42850140006 , execution time: 0.00125017501
+execution counter: 1
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a
+Time of entanglement success: 3428501750050.0
+Start Time: 3.42675157504 , End Time: 3.42850175005 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESA.b.MemoryArray[0].b.MemoryArray[1],   execution_count: 9
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b
+Time of entanglement success: 3428501750050.0
+Start Time: 3.42725157504 , End Time: 3.42850175005 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 16
+a SWAPPING end protocol start with partner b
+c SWAPPING end protocol start with partner b
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 13
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 21
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 17
+Entanglement swap successful between ('a', 'c')
+Start Time: 3.42900175005 , End Time: 3.4300017500499997 , execution time: 0.001
+protocol.name : ESA.c.MemoryArray[0].c.MemoryArray[1],   execution_count: 8
+Entanglement swap successful between ('c', 'a')
+Start Time: 3.42900175005 , End Time: 3.4300017500499997 , execution time: 0.001
+a SWAPPING end protocol start with partner c
+d SWAPPING end protocol start with partner c
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 22
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 14
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 391
+c protocol start with partner b
+Start Time of Entanglement Generation: 3431001750050
+Entanglement swap successful between ('a', 'd')
+Start Time: 3.43050175005 , End Time: 3.43150175005 , execution time: 0.001
+Entanglement swap successful between ('d', 'a')
+Start Time: 3.43050175005 , End Time: 3.43150175005 , execution time: 0.001
+b protocol start with partner c
+Start Time of Entanglement Generation: 3431501750050
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 392
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b
+Time of entanglement success: 3432751925060.0
+Start Time: 3.43100175005 , End Time: 3.43275192506 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.c.MemoryArray[0],   execution_count: 10
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c
+Time of entanglement success: 3432751925060.0
+Start Time: 3.43150175005 , End Time: 3.43275192506 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : EGA.a.MemoryArray[0],   execution_count: 13
+protocol.name : EGA.d.MemoryArray[0],   execution_count: 10
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 393
+b protocol start with partner a
+Start Time of Entanglement Generation: 3433501400050
+d protocol start with partner c
+Start Time of Entanglement Generation: 3433501750050
+a protocol start with partner b
+Start Time of Entanglement Generation: 3434001400050
+c protocol start with partner d
+Start Time of Entanglement Generation: 3434001750050
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a
+Time of entanglement success: 3435251575060.0
+Start Time: 3.43350140005 , End Time: 3.43525157506 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESA.b.MemoryArray[0].b.MemoryArray[1],   execution_count: 10
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b
+Time of entanglement success: 3435251575060.0
+Start Time: 3.43400140005 , End Time: 3.43525157506 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 18
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c
+Time of entanglement success: 3435251925060.0
+Start Time: 3.43350175005 , End Time: 3.4352519250599998 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.d.MemoryArray[0],   execution_count: 9
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d
+Time of entanglement success: 3435251925060.0
+Start Time: 3.4340017500499997 , End Time: 3.4352519250599998 , execution time: 0.00125017501
+execution counter: 1
+a SWAPPING end protocol start with partner b
+c SWAPPING end protocol start with partner b
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 14
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 23
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 19
+Entanglement swap successful between ('a', 'c')
+Start Time: 3.43575157506 , End Time: 3.4367515750599997 , execution time: 0.001
+protocol.name : ESA.c.MemoryArray[0].c.MemoryArray[1],   execution_count: 9
+Entanglement swap successful between ('c', 'a')
+Start Time: 3.43575157506 , End Time: 3.4367515750599997 , execution time: 0.001
+a SWAPPING end protocol start with partner c
+d SWAPPING end protocol start with partner c
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 24
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 15
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 394
+c protocol start with partner b
+Start Time of Entanglement Generation: 3437751575060
+Entanglement swap successful between ('a', 'd')
+Start Time: 3.43725157506 , End Time: 3.43825157506 , execution time: 0.001
+Entanglement swap successful between ('d', 'a')
+Start Time: 3.43725157506 , End Time: 3.43825157506 , execution time: 0.001
+b protocol start with partner c
+Start Time of Entanglement Generation: 3438251575060
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 395
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b
+Time of entanglement success: 3439501750070.0
+Start Time: 3.43775157506 , End Time: 3.43950175007 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.c.MemoryArray[0],   execution_count: 11
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c
+Time of entanglement success: 3439501750070.0
+Start Time: 3.43825157506 , End Time: 3.43950175007 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 396
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 397
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 398
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 399
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 400
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 401
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 402
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 403
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 404
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 405
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 406
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 407
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 408
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 409
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 410
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 411
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 412
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 413
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 414
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 415
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 416
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 417
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 418
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 419
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 420
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 421
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 422
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 423
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 424
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 425
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 426
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 427
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 428
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 429
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 430
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 431
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 432
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 433
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 434
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 435
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 436
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 437
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 438
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 439
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 440
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 441
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 442
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 443
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 444
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 445
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 446
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 447
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 448
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 449
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 450
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 451
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 452
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 453
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 454
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 455
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 456
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 457
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 458
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 459
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 460
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 461
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 462
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 463
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 464
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 465
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 466
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 467
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 468
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 469
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 470
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 471
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 472
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 473
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 474
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 475
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 476
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 477
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 478
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 479
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 480
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 481
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 482
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 483
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 484
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 485
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 486
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 487
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 488
+protocol.name : EGA.d.MemoryArray[0],   execution_count: 11
+protocol.name : EGA.a.MemoryArray[0],   execution_count: 14
+d protocol start with partner c
+Start Time of Entanglement Generation: 3532251575060
+b protocol start with partner a
+Start Time of Entanglement Generation: 3532501750050
+c protocol start with partner d
+Start Time of Entanglement Generation: 3532751575060
+a protocol start with partner b
+Start Time of Entanglement Generation: 3533001750050
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c
+Time of entanglement success: 3534001750070.0
+Start Time: 3.53225157506 , End Time: 3.53400175007 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.d.MemoryArray[0],   execution_count: 10
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d
+Time of entanglement success: 3534001750070.0
+Start Time: 3.53275157506 , End Time: 3.53400175007 , execution time: 0.00125017501
+execution counter: 1
+a failed entanglement of memory with the node:  b
+Time of entanglement failure: 3534251925050
+Start Time: 3.53300175005 , End Time: 3.53425192505 , execution time: 0.001250175
+execution counter: 1
+protocol.name : EGA.a.MemoryArray[0],   execution_count: 15
+b failed entanglement of memory with the node:  a
+Time of entanglement failure: 3534251925050
+Start Time: 3.53250175005 , End Time: 3.53425192505 , execution time: 0.0017501749999999999
+execution counter: 1
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 15
+b protocol start with partner a
+Start Time of Entanglement Generation: 3534751925050
+a protocol start with partner b
+Start Time of Entanglement Generation: 3535251925050
+a failed entanglement of memory with the node:  b
+Time of entanglement failure: 3536002100050
+Start Time: 3.53525192505 , End Time: 3.5360021000499997 , execution time: 0.000750175
+execution counter: 1
+protocol.name : EGA.a.MemoryArray[0],   execution_count: 16
+b failed entanglement of memory with the node:  a
+Time of entanglement failure: 3536002100050
+Start Time: 3.53475192505 , End Time: 3.5360021000499997 , execution time: 0.001250175
+execution counter: 1
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 16
+b protocol start with partner a
+Start Time of Entanglement Generation: 3536502100050
+a protocol start with partner b
+Start Time of Entanglement Generation: 3537002100050
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a
+Time of entanglement success: 3538252275060.0
+Start Time: 3.53650210005 , End Time: 3.53825227506 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESA.b.MemoryArray[0].b.MemoryArray[1],   execution_count: 11
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b
+Time of entanglement success: 3538252275060.0
+Start Time: 3.53700210005 , End Time: 3.53825227506 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 20
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 16
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 25
+a SWAPPING end protocol start with partner b
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 21
+c protocol start with partner b
+Start Time of Entanglement Generation: 3539251575060
+b protocol start with partner c
+Start Time of Entanglement Generation: 3539751575060
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b
+Time of entanglement success: 3541001750070.0
+Start Time: 3.5392515750599998 , End Time: 3.54100175007 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.c.MemoryArray[0],   execution_count: 12
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c
+Time of entanglement success: 3541001750070.0
+Start Time: 3.53975157506 , End Time: 3.54100175007 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : ESA.b.MemoryArray[1].b.MemoryArray[0],   execution_count: 12
+c SWAPPING end protocol start with partner b
+a SWAPPING end protocol start with partner b
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 26
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 17
+protocol.name : ESA.c.MemoryArray[0].c.MemoryArray[1],   execution_count: 10
+Entanglement swap successful between ('c', 'a')
+Start Time: 3.54150175007 , End Time: 3.54250175007 , execution time: 0.001
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 22
+Entanglement swap successful between ('a', 'c')
+Start Time: 3.54150175007 , End Time: 3.54250175007 , execution time: 0.001
+a SWAPPING end protocol start with partner c
+d SWAPPING end protocol start with partner c
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 27
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 17
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 489
+c protocol start with partner b
+Start Time of Entanglement Generation: 3543501750070
+Entanglement swap successful between ('a', 'd')
+Start Time: 3.5430017500699997 , End Time: 3.54400175007 , execution time: 0.001
+Entanglement swap successful between ('d', 'a')
+Start Time: 3.5430017500699997 , End Time: 3.54400175007 , execution time: 0.001
+b protocol start with partner c
+Start Time of Entanglement Generation: 3544001750070
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 490
+b failed entanglement of memory with the node:  c
+Time of entanglement failure: 3544751925070
+Start Time: 3.54400175007 , End Time: 3.54475192507 , execution time: 0.000750175
+execution counter: 1
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 28
+c failed entanglement of memory with the node:  b
+Time of entanglement failure: 3544751925070
+Start Time: 3.54350175007 , End Time: 3.54475192507 , execution time: 0.001250175
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 18
+c protocol start with partner b
+Start Time of Entanglement Generation: 3545251925070
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 491
+b protocol start with partner c
+Start Time of Entanglement Generation: 3545751925070
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 492
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b
+Time of entanglement success: 3547002100080.0
+Start Time: 3.54525192507 , End Time: 3.54700210008 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.c.MemoryArray[0],   execution_count: 13
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c
+Time of entanglement success: 3547002100080.0
+Start Time: 3.54575192507 , End Time: 3.54700210008 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 493
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 494
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 495
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 496
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 497
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 498
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 499
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 500
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 501
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 502
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 503
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 504
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 505
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 506
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 507
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 508
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 509
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 510
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 511
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 512
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 513
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 514
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 515
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 516
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 517
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 518
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 519
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 520
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 521
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 522
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 523
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 524
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 525
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 526
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 527
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 528
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 529
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 530
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 531
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 532
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 533
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 534
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 535
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 536
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 537
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 538
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 539
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 540
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 541
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 542
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 543
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 544
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 545
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 546
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 547
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 548
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 549
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 550
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 551
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 552
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 553
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 554
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 555
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 556
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 557
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 558
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 559
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 560
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 561
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 562
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 563
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 564
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 565
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 566
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 567
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 568
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 569
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 570
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 571
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 572
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 573
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 574
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 575
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 576
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 577
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 578
+protocol.name : EGA.a.MemoryArray[0],   execution_count: 17
+protocol.name : EGA.d.MemoryArray[0],   execution_count: 12
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 579
+b protocol start with partner a
+Start Time of Entanglement Generation: 3633751575060
+d protocol start with partner c
+Start Time of Entanglement Generation: 3634001750070
+a protocol start with partner b
+Start Time of Entanglement Generation: 3634251575060
+c protocol start with partner d
+Start Time of Entanglement Generation: 3634501750070
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a
+Time of entanglement success: 3635501750070.0
+Start Time: 3.63375157506 , End Time: 3.63550175007 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESA.b.MemoryArray[0].b.MemoryArray[1],   execution_count: 13
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b
+Time of entanglement success: 3635501750070.0
+Start Time: 3.63425157506 , End Time: 3.63550175007 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 23
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c
+Time of entanglement success: 3635751925080.0
+Start Time: 3.63400175007 , End Time: 3.63575192508 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.d.MemoryArray[0],   execution_count: 11
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d
+Time of entanglement success: 3635751925080.0
+Start Time: 3.63450175007 , End Time: 3.63575192508 , execution time: 0.00125017501
+execution counter: 1
+a SWAPPING end protocol start with partner b
+c SWAPPING end protocol start with partner b
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 18
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 29
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 24
+Entanglement swap successful between ('a', 'c')
+Start Time: 3.6360017500699997 , End Time: 3.63700175007 , execution time: 0.001
+protocol.name : ESA.c.MemoryArray[0].c.MemoryArray[1],   execution_count: 11
+Entanglement swap successful between ('c', 'a')
+Start Time: 3.6360017500699997 , End Time: 3.63700175007 , execution time: 0.001
+a SWAPPING end protocol start with partner c
+d SWAPPING end protocol start with partner c
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 30
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 19
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 580
+c protocol start with partner b
+Start Time of Entanglement Generation: 3638001750070
+Entanglement swap successful between ('a', 'd')
+Start Time: 3.6375017500699998 , End Time: 3.63850175007 , execution time: 0.001
+Entanglement swap successful between ('d', 'a')
+Start Time: 3.6375017500699998 , End Time: 3.63850175007 , execution time: 0.001
+b protocol start with partner c
+Start Time of Entanglement Generation: 3638501750070
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 581
+b failed entanglement of memory with the node:  c
+Time of entanglement failure: 3639251925070
+Start Time: 3.63850175007 , End Time: 3.63925192507 , execution time: 0.000750175
+execution counter: 1
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 31
+c failed entanglement of memory with the node:  b
+Time of entanglement failure: 3639251925070
+Start Time: 3.63800175007 , End Time: 3.63925192507 , execution time: 0.001250175
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 20
+c protocol start with partner b
+Start Time of Entanglement Generation: 3639751925070
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 582
+b protocol start with partner c
+Start Time of Entanglement Generation: 3640251925070
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 583
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b
+Time of entanglement success: 3641502100080.0
+Start Time: 3.63975192507 , End Time: 3.64150210008 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.c.MemoryArray[0],   execution_count: 14
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c
+Time of entanglement success: 3641502100080.0
+Start Time: 3.64025192507 , End Time: 3.64150210008 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 584
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 585
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 586
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 587
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 588
+protocol.name : EGA.d.MemoryArray[0],   execution_count: 13
+protocol.name : EGA.a.MemoryArray[0],   execution_count: 18
+d protocol start with partner c
+Start Time of Entanglement Generation: 3646501750070
+b protocol start with partner a
+Start Time of Entanglement Generation: 3646751925070
+c protocol start with partner d
+Start Time of Entanglement Generation: 3647001750070
+a protocol start with partner b
+Start Time of Entanglement Generation: 3647251925070
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c
+Time of entanglement success: 3648251925080.0
+Start Time: 3.64650175007 , End Time: 3.64825192508 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.d.MemoryArray[0],   execution_count: 12
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d
+Time of entanglement success: 3648251925080.0
+Start Time: 3.64700175007 , End Time: 3.64825192508 , execution time: 0.00125017501
+execution counter: 1
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a
+Time of entanglement success: 3648502100080.0
+Start Time: 3.64675192507 , End Time: 3.64850210008 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESA.b.MemoryArray[0].b.MemoryArray[1],   execution_count: 14
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b
+Time of entanglement success: 3648502100080.0
+Start Time: 3.64725192507 , End Time: 3.64850210008 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 25
+a SWAPPING end protocol start with partner b
+c SWAPPING end protocol start with partner b
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 19
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 32
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 26
+Entanglement swap successful between ('a', 'c')
+Start Time: 3.64900210008 , End Time: 3.65000210008 , execution time: 0.001
+protocol.name : ESA.c.MemoryArray[0].c.MemoryArray[1],   execution_count: 12
+Entanglement swap successful between ('c', 'a')
+Start Time: 3.64900210008 , End Time: 3.65000210008 , execution time: 0.001
+a SWAPPING end protocol start with partner c
+d SWAPPING end protocol start with partner c
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 33
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 21
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 589
+c protocol start with partner b
+Start Time of Entanglement Generation: 3651002100080
+Entanglement swap successful between ('a', 'd')
+Start Time: 3.6505021000799998 , End Time: 3.65150210008 , execution time: 0.001
+Entanglement swap successful between ('d', 'a')
+Start Time: 3.6505021000799998 , End Time: 3.65150210008 , execution time: 0.001
+b protocol start with partner c
+Start Time of Entanglement Generation: 3651502100080
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 590
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b
+Time of entanglement success: 3652752275090.0
+Start Time: 3.65100210008 , End Time: 3.65275227509 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.c.MemoryArray[0],   execution_count: 15
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c
+Time of entanglement success: 3652752275090.0
+Start Time: 3.65150210008 , End Time: 3.65275227509 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 591
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 592
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 593
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 594
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 595
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 596
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 597
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 598
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 599
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 600
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 601
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 602
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 603
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 604
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 605
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 606
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 607
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 608
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 609
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 610
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 611
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 612
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 613
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 614
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 615
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 616
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 617
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 618
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 619
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 620
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 621
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 622
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 623
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 624
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 625
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 626
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 627
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 628
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 629
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 630
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 631
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 632
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 633
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 634
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 635
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 636
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 637
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 638
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 639
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 640
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 641
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 642
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 643
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 644
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 645
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 646
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 647
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 648
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 649
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 650
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 651
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 652
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 653
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 654
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 655
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 656
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 657
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 658
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 659
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 660
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 661
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 662
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 663
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 664
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 665
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 666
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 667
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 668
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 669
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 670
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 671
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 672
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 673
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 674
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 675
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 676
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 677
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 678
+protocol.name : EGA.a.MemoryArray[0],   execution_count: 19
+protocol.name : EGA.d.MemoryArray[0],   execution_count: 14
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 679
+b protocol start with partner a
+Start Time of Entanglement Generation: 3741251925070
+d protocol start with partner c
+Start Time of Entanglement Generation: 3741502100080
+a protocol start with partner b
+Start Time of Entanglement Generation: 3741751925070
+c protocol start with partner d
+Start Time of Entanglement Generation: 3742002100080
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a
+Time of entanglement success: 3743002100080.0
+Start Time: 3.74125192507 , End Time: 3.74300210008 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESA.b.MemoryArray[0].b.MemoryArray[1],   execution_count: 15
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b
+Time of entanglement success: 3743002100080.0
+Start Time: 3.74175192507 , End Time: 3.74300210008 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 27
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c
+Time of entanglement success: 3743252275090.0
+Start Time: 3.74150210008 , End Time: 3.74325227509 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.d.MemoryArray[0],   execution_count: 13
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d
+Time of entanglement success: 3743252275090.0
+Start Time: 3.74200210008 , End Time: 3.74325227509 , execution time: 0.00125017501
+execution counter: 1
+a SWAPPING end protocol start with partner b
+c SWAPPING end protocol start with partner b
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 20
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 34
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 28
+Entanglement swap successful between ('a', 'c')
+Start Time: 3.7435021000799997 , End Time: 3.74450210008 , execution time: 0.001
+protocol.name : ESA.c.MemoryArray[0].c.MemoryArray[1],   execution_count: 13
+Entanglement swap successful between ('c', 'a')
+Start Time: 3.7435021000799997 , End Time: 3.74450210008 , execution time: 0.001
+a SWAPPING end protocol start with partner c
+d SWAPPING end protocol start with partner c
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 35
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 22
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 680
+c protocol start with partner b
+Start Time of Entanglement Generation: 3745502100080
+Entanglement swap successful between ('a', 'd')
+Start Time: 3.74500210008 , End Time: 3.74600210008 , execution time: 0.001
+Entanglement swap successful between ('d', 'a')
+Start Time: 3.74500210008 , End Time: 3.74600210008 , execution time: 0.001
+b protocol start with partner c
+Start Time of Entanglement Generation: 3746002100080
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 681
+b failed entanglement of memory with the node:  c
+Time of entanglement failure: 3747252275080
+Start Time: 3.74600210008 , End Time: 3.74725227508 , execution time: 0.001250175
+execution counter: 1
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 36
+c failed entanglement of memory with the node:  b
+Time of entanglement failure: 3747252275080
+Start Time: 3.74550210008 , End Time: 3.74725227508 , execution time: 0.0017501749999999999
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 23
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 682
+c protocol start with partner b
+Start Time of Entanglement Generation: 3747752275080
+b protocol start with partner c
+Start Time of Entanglement Generation: 3748252275080
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 683
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 684
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c
+Time of entanglement success: 3749502450090.0
+Start Time: 3.74825227508 , End Time: 3.74950245009 , execution time: 0.00125017501
+execution counter: 1
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b
+Time of entanglement success: 3749502450090.0
+Start Time: 3.74775227508 , End Time: 3.74950245009 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.c.MemoryArray[0],   execution_count: 16
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 685
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 686
+protocol.name : EGA.d.MemoryArray[0],   execution_count: 15
+protocol.name : EGA.a.MemoryArray[0],   execution_count: 20
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 687
+b protocol start with partner a
+Start Time of Entanglement Generation: 3752502100080
+d protocol start with partner c
+Start Time of Entanglement Generation: 3753002100080
+a protocol start with partner b
+Start Time of Entanglement Generation: 3753002100080
+c protocol start with partner d
+Start Time of Entanglement Generation: 3753502100080
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a
+Time of entanglement success: 3754252275090.0
+Start Time: 3.75250210008 , End Time: 3.75425227509 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESA.b.MemoryArray[0].b.MemoryArray[1],   execution_count: 16
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b
+Time of entanglement success: 3754252275090.0
+Start Time: 3.75300210008 , End Time: 3.75425227509 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 29
+a SWAPPING end protocol start with partner b
+c SWAPPING end protocol start with partner b
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d
+Time of entanglement success: 3754752275090.0
+Start Time: 3.75350210008 , End Time: 3.75475227509 , execution time: 0.00125017501
+execution counter: 1
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c
+Time of entanglement success: 3754752275090.0
+Start Time: 3.75300210008 , End Time: 3.75475227509 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.d.MemoryArray[0],   execution_count: 14
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 21
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 37
+Entanglement swap failed between ('a', None)
+protocol.name : EGA.a.MemoryArray[0],   execution_count: 21
+Start Time: 3.75475227509 , End Time: 3.75575227509 , execution time: 0.001
+Entanglement swap failed between ('c', None)
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 24
+Start Time: 3.75475227509 , End Time: 3.75575227509 , execution time: 0.001
+c protocol start with partner b
+Start Time of Entanglement Generation: 3755752275090
+b protocol start with partner a
+Start Time of Entanglement Generation: 3756252275090
+b protocol start with partner c
+Start Time of Entanglement Generation: 3756252275090
+a protocol start with partner b
+Start Time of Entanglement Generation: 3756752275090
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b
+Time of entanglement success: 3757502450100.0
+Start Time: 3.75575227509 , End Time: 3.7575024501 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.c.MemoryArray[0],   execution_count: 17
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c
+Time of entanglement success: 3757502450100.0
+Start Time: 3.75625227509 , End Time: 3.7575024501 , execution time: 0.00125017501
+execution counter: 1
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a
+Time of entanglement success: 3758002450100.0
+Start Time: 3.75625227509 , End Time: 3.7580024501 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESA.b.MemoryArray[0].b.MemoryArray[1],   execution_count: 17
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b
+Time of entanglement success: 3758002450100.0
+Start Time: 3.7567522750899998 , End Time: 3.7580024501 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 30
+a SWAPPING end protocol start with partner b
+c SWAPPING end protocol start with partner b
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 22
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 38
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 31
+Entanglement swap successful between ('a', 'c')
+Start Time: 3.7585024501 , End Time: 3.7595024501 , execution time: 0.001
+protocol.name : ESA.c.MemoryArray[0].c.MemoryArray[1],   execution_count: 14
+Entanglement swap successful between ('c', 'a')
+Start Time: 3.7585024501 , End Time: 3.7595024501 , execution time: 0.001
+a SWAPPING end protocol start with partner c
+d SWAPPING end protocol start with partner c
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 39
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 25
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 688
+c protocol start with partner b
+Start Time of Entanglement Generation: 3760502450100
+Entanglement swap successful between ('a', 'd')
+Start Time: 3.7600024501 , End Time: 3.7610024501 , execution time: 0.001
+Entanglement swap successful between ('d', 'a')
+Start Time: 3.7600024501 , End Time: 3.7610024501 , execution time: 0.001
+b protocol start with partner c
+Start Time of Entanglement Generation: 3761002450100
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 689
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b
+Time of entanglement success: 3762252625110.0
+Start Time: 3.7605024500999997 , End Time: 3.76225262511 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.c.MemoryArray[0],   execution_count: 18
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c
+Time of entanglement success: 3762252625110.0
+Start Time: 3.7610024501 , End Time: 3.76225262511 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 690
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 691
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 692
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 693
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 694
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 695
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 696
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 697
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 698
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 699
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 700
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 701
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 702
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 703
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 704
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 705
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 706
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 707
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 708
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 709
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 710
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 711
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 712
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 713
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 714
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 715
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 716
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 717
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 718
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 719
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 720
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 721
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 722
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 723
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 724
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 725
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 726
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 727
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 728
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 729
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 730
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 731
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 732
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 733
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 734
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 735
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 736
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 737
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 738
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 739
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 740
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 741
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 742
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 743
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 744
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 745
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 746
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 747
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 748
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 749
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 750
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 751
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 752
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 753
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 754
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 755
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 756
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 757
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 758
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 759
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 760
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 761
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 762
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 763
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 764
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 765
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 766
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 767
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 768
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 769
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 770
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 771
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 772
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 773
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 774
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 775
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 776
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 777
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 778
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 779
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 780
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 781
+protocol.name : EGA.d.MemoryArray[0],   execution_count: 16
+protocol.name : EGA.a.MemoryArray[0],   execution_count: 22
+d protocol start with partner c
+Start Time of Entanglement Generation: 3854002450100
+b protocol start with partner a
+Start Time of Entanglement Generation: 3854502100080
+c protocol start with partner d
+Start Time of Entanglement Generation: 3854502450100
+a protocol start with partner b
+Start Time of Entanglement Generation: 3855002100080
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c
+Time of entanglement success: 3855752625110.0
+Start Time: 3.8540024501 , End Time: 3.85575262511 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.d.MemoryArray[0],   execution_count: 15
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d
+Time of entanglement success: 3855752625110.0
+Start Time: 3.8545024501 , End Time: 3.85575262511 , execution time: 0.00125017501
+execution counter: 1
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a
+Time of entanglement success: 3856252275090.0
+Start Time: 3.85450210008 , End Time: 3.85625227509 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESA.b.MemoryArray[0].b.MemoryArray[1],   execution_count: 18
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b
+Time of entanglement success: 3856252275090.0
+Start Time: 3.85500210008 , End Time: 3.85625227509 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 32
+a SWAPPING end protocol start with partner b
+c SWAPPING end protocol start with partner b
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 23
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 40
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 33
+Entanglement swap successful between ('a', 'c')
+Start Time: 3.85675227509 , End Time: 3.8577522750899997 , execution time: 0.001
+protocol.name : ESA.c.MemoryArray[0].c.MemoryArray[1],   execution_count: 15
+Entanglement swap successful between ('c', 'a')
+Start Time: 3.85675227509 , End Time: 3.8577522750899997 , execution time: 0.001
+a SWAPPING end protocol start with partner c
+d SWAPPING end protocol start with partner c
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 41
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 26
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 782
+c protocol start with partner b
+Start Time of Entanglement Generation: 3858752275090
+Entanglement swap successful between ('a', 'd')
+Start Time: 3.85825227509 , End Time: 3.85925227509 , execution time: 0.001
+Entanglement swap successful between ('d', 'a')
+Start Time: 3.85825227509 , End Time: 3.85925227509 , execution time: 0.001
+b protocol start with partner c
+Start Time of Entanglement Generation: 3859252275090
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 783
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b
+Time of entanglement success: 3860502450100.0
+Start Time: 3.85875227509 , End Time: 3.8605024501 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.c.MemoryArray[0],   execution_count: 19
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c
+Time of entanglement success: 3860502450100.0
+Start Time: 3.85925227509 , End Time: 3.8605024501 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 784
+protocol.name : EGA.d.MemoryArray[0],   execution_count: 17
+protocol.name : EGA.a.MemoryArray[0],   execution_count: 23
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 785
+b protocol start with partner a
+Start Time of Entanglement Generation: 3862002450100
+d protocol start with partner c
+Start Time of Entanglement Generation: 3862252275090
+a protocol start with partner b
+Start Time of Entanglement Generation: 3862502450100
+c protocol start with partner d
+Start Time of Entanglement Generation: 3862752275090
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a
+Time of entanglement success: 3863752625110.0
+Start Time: 3.8620024501 , End Time: 3.86375262511 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESA.b.MemoryArray[0].b.MemoryArray[1],   execution_count: 19
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b
+Time of entanglement success: 3863752625110.0
+Start Time: 3.8625024501 , End Time: 3.86375262511 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 34
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d
+Time of entanglement success: 3864002450100.0
+Start Time: 3.86275227509 , End Time: 3.8640024501 , execution time: 0.00125017501
+execution counter: 1
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c
+Time of entanglement success: 3864002450100.0
+Start Time: 3.86225227509 , End Time: 3.8640024501 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.d.MemoryArray[0],   execution_count: 16
+a SWAPPING end protocol start with partner b
+c SWAPPING end protocol start with partner b
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 24
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 42
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 35
+Entanglement swap successful between ('a', 'c')
+Start Time: 3.86425262511 , End Time: 3.86525262511 , execution time: 0.001
+protocol.name : ESA.c.MemoryArray[0].c.MemoryArray[1],   execution_count: 16
+Entanglement swap successful between ('c', 'a')
+Start Time: 3.86425262511 , End Time: 3.86525262511 , execution time: 0.001
+a SWAPPING end protocol start with partner c
+d SWAPPING end protocol start with partner c
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 43
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 27
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 786
+c protocol start with partner b
+Start Time of Entanglement Generation: 3866252625110
+Entanglement swap successful between ('a', 'd')
+Start Time: 3.86575262511 , End Time: 3.8667526251099997 , execution time: 0.001
+Entanglement swap successful between ('d', 'a')
+Start Time: 3.86575262511 , End Time: 3.8667526251099997 , execution time: 0.001
+b protocol start with partner c
+Start Time of Entanglement Generation: 3866752625110
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 787
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b
+Time of entanglement success: 3868002800120.0
+Start Time: 3.86625262511 , End Time: 3.8680028001199998 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.c.MemoryArray[0],   execution_count: 20
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c
+Time of entanglement success: 3868002800120.0
+Start Time: 3.8667526251099997 , End Time: 3.8680028001199998 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 788
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 789
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 790
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 791
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 792
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 793
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 794
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 795
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 796
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 797
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 798
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 799
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 800
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 801
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 802
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 803
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 804
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 805
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 806
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 807
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 808
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 809
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 810
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 811
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 812
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 813
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 814
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 815
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 816
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 817
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 818
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 819
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 820
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 821
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 822
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 823
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 824
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 825
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 826
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 827
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 828
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 829
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 830
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 831
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 832
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 833
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 834
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 835
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 836
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 837
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 838
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 839
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 840
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 841
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 842
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 843
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 844
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 845
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 846
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 847
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 848
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 849
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 850
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 851
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 852
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 853
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 854
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 855
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 856
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 857
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 858
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 859
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 860
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 861
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 862
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 863
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 864
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 865
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 866
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 867
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 868
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 869
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 870
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 871
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 872
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 873
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 874
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 875
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 876
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 877
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 878
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 879
+protocol.name : EGA.d.MemoryArray[0],   execution_count: 18
+protocol.name : EGA.a.MemoryArray[0],   execution_count: 24
+d protocol start with partner c
+Start Time of Entanglement Generation: 3959752625110
+b protocol start with partner a
+Start Time of Entanglement Generation: 3960252275090
+c protocol start with partner d
+Start Time of Entanglement Generation: 3960252625110
+a protocol start with partner b
+Start Time of Entanglement Generation: 3960752275090
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c
+Time of entanglement success: 3961502800120.0
+Start Time: 3.9597526251099997 , End Time: 3.96150280012 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.d.MemoryArray[0],   execution_count: 17
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d
+Time of entanglement success: 3961502800120.0
+Start Time: 3.96025262511 , End Time: 3.96150280012 , execution time: 0.00125017501
+execution counter: 1
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a
+Time of entanglement success: 3962002450100.0
+Start Time: 3.9602522750899998 , End Time: 3.9620024501 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESA.b.MemoryArray[0].b.MemoryArray[1],   execution_count: 20
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b
+Time of entanglement success: 3962002450100.0
+Start Time: 3.96075227509 , End Time: 3.9620024501 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 36
+a SWAPPING end protocol start with partner b
+c SWAPPING end protocol start with partner b
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 25
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 44
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 37
+Entanglement swap successful between ('a', 'c')
+Start Time: 3.9625024501 , End Time: 3.9635024501 , execution time: 0.001
+protocol.name : ESA.c.MemoryArray[0].c.MemoryArray[1],   execution_count: 17
+Entanglement swap successful between ('c', 'a')
+Start Time: 3.9625024501 , End Time: 3.9635024501 , execution time: 0.001
+a SWAPPING end protocol start with partner c
+d SWAPPING end protocol start with partner c
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 45
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 28
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 880
+c protocol start with partner b
+Start Time of Entanglement Generation: 3964502450100
+Entanglement swap successful between ('a', 'd')
+Start Time: 3.9640024500999997 , End Time: 3.9650024501 , execution time: 0.001
+Entanglement swap successful between ('d', 'a')
+Start Time: 3.9640024500999997 , End Time: 3.9650024501 , execution time: 0.001
+b protocol start with partner c
+Start Time of Entanglement Generation: 3965002450100
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 881
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b
+Time of entanglement success: 3966252625110.0
+Start Time: 3.9645024501 , End Time: 3.96625262511 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.c.MemoryArray[0],   execution_count: 21
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c
+Time of entanglement success: 3966252625110.0
+Start Time: 3.9650024501 , End Time: 3.96625262511 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 882
+protocol.name : EGA.d.MemoryArray[0],   execution_count: 19
+protocol.name : EGA.a.MemoryArray[0],   execution_count: 25
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 883
+b protocol start with partner a
+Start Time of Entanglement Generation: 3967752625110
+d protocol start with partner c
+Start Time of Entanglement Generation: 3968002450100
+a protocol start with partner b
+Start Time of Entanglement Generation: 3968252625110
+c protocol start with partner d
+Start Time of Entanglement Generation: 3968502450100
+c failed entanglement of memory with the node:  d
+Time of entanglement failure: 3969252625100
+Start Time: 3.9685024501 , End Time: 3.9692526250999998 , execution time: 0.000750175
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 884
+d failed entanglement of memory with the node:  c
+Time of entanglement failure: 3969252625100
+Start Time: 3.9680024500999997 , End Time: 3.9692526250999998 , execution time: 0.001250175
+execution counter: 1
+protocol.name : EGA.d.MemoryArray[0],   execution_count: 20
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+b successful entanglement of memory with the node:  a
+Time of entanglement success: 3969502800120.0
+Start Time: 3.9677526251099997 , End Time: 3.96950280012 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESA.b.MemoryArray[0].b.MemoryArray[1],   execution_count: 21
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+a successful entanglement of memory with the node:  b
+Time of entanglement success: 3969502800120.0
+Start Time: 3.96825262511 , End Time: 3.96950280012 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 38
+d protocol start with partner c
+Start Time of Entanglement Generation: 3969752625100
+a SWAPPING end protocol start with partner b
+c SWAPPING end protocol start with partner b
+c protocol start with partner d
+Start Time of Entanglement Generation: 3970252625100
+protocol.name : EGA.b.MemoryArray[0],   execution_count: 26
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 46
+c failed entanglement of memory with the node:  d
+Time of entanglement failure: 3971002800100
+Start Time: 3.9702526251 , End Time: 3.9710028001 , execution time: 0.000750175
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 885
+d failed entanglement of memory with the node:  c
+Time of entanglement failure: 3971002800100
+Start Time: 3.9697526251 , End Time: 3.9710028001 , execution time: 0.001250175
+execution counter: 1
+protocol.name : EGA.d.MemoryArray[0],   execution_count: 21
+protocol.name : ESB.a.MemoryArray[0],   execution_count: 39
+Entanglement swap successful between ('a', 'c')
+Start Time: 3.97000280012 , End Time: 3.97100280012 , execution time: 0.001
+Entanglement swap successful between ('c', 'a')
+Start Time: 3.97000280012 , End Time: 3.97100280012 , execution time: 0.001
+d protocol start with partner c
+Start Time of Entanglement Generation: 3971502800100
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 47
+c protocol start with partner d
+Start Time of Entanglement Generation: 3972002800100
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 48
+c failed entanglement of memory with the node:  d
+Time of entanglement failure: 3972752975100
+Start Time: 3.9720028001 , End Time: 3.9727529751 , execution time: 0.000750175
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 886
+d failed entanglement of memory with the node:  c
+Time of entanglement failure: 3972752975100
+Start Time: 3.9715028001 , End Time: 3.9727529751 , execution time: 0.001250175
+execution counter: 1
+protocol.name : EGA.d.MemoryArray[0],   execution_count: 22
+d protocol start with partner c
+Start Time of Entanglement Generation: 3973252975100
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 49
+c protocol start with partner d
+Start Time of Entanglement Generation: 3973752975100
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 50
+c failed entanglement of memory with the node:  d
+Time of entanglement failure: 3974503150100
+Start Time: 3.9737529751 , End Time: 3.9745031501 , execution time: 0.000750175
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 887
+d failed entanglement of memory with the node:  c
+Time of entanglement failure: 3974503150100
+Start Time: 3.9732529751 , End Time: 3.9745031501 , execution time: 0.001250175
+execution counter: 1
+protocol.name : EGA.d.MemoryArray[0],   execution_count: 23
+d protocol start with partner c
+Start Time of Entanglement Generation: 3975003150100
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 51
+c protocol start with partner d
+Start Time of Entanglement Generation: 3975503150100
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 52
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+d successful entanglement of memory with the node:  c
+Time of entanglement success: 3976753325110.0
+Start Time: 3.9750031501 , End Time: 3.97675332511 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.d.MemoryArray[0],   execution_count: 18
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+c successful entanglement of memory with the node:  d
+Time of entanglement success: 3976753325110.0
+Start Time: 3.9755031500999998 , End Time: 3.97675332511 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : ESA.c.MemoryArray[1].c.MemoryArray[0],   execution_count: 18
+d SWAPPING end protocol start with partner c
+a SWAPPING end protocol start with partner c
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 53
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 888
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 29
+c protocol start with partner b
+Start Time of Entanglement Generation: 3978002800120
+Entanglement swap successful between ('d', 'a')
+Start Time: 3.97725332511 , End Time: 3.97825332511 , execution time: 0.001
+Entanglement swap successful between ('a', 'd')
+Start Time: 3.97725332511 , End Time: 3.97825332511 , execution time: 0.001
+b protocol start with partner c
+Start Time of Entanglement Generation: 3978502800120
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 889
+b failed entanglement of memory with the node:  c
+Time of entanglement failure: 3979252975120
+Start Time: 3.97850280012 , End Time: 3.97925297512 , execution time: 0.000750175
+execution counter: 1
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 54
+c failed entanglement of memory with the node:  b
+Time of entanglement failure: 3979252975120
+Start Time: 3.97800280012 , End Time: 3.97925297512 , execution time: 0.001250175
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 30
+c protocol start with partner b
+Start Time of Entanglement Generation: 3979752975120
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 890
+b protocol start with partner c
+Start Time of Entanglement Generation: 3980252975120
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 891
+b failed entanglement of memory with the node:  c
+Time of entanglement failure: 3981003150120
+Start Time: 3.98025297512 , End Time: 3.98100315012 , execution time: 0.000750175
+execution counter: 1
+protocol.name : EGA.b.MemoryArray[1],   execution_count: 55
+c failed entanglement of memory with the node:  b
+Time of entanglement failure: 3981003150120
+Start Time: 3.97975297512 , End Time: 3.98100315012 , execution time: 0.001250175
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[0],   execution_count: 31
+c protocol start with partner b
+Start Time of Entanglement Generation: 3981503150120
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 892
+b protocol start with partner c
+Start Time of Entanglement Generation: 3982003150120
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 893
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+c successful entanglement of memory with the node:  b
+Time of entanglement success: 3983253325130.0
+Start Time: 3.98150315012 , End Time: 3.9832533251299997 , execution time: 0.00175017501
+execution counter: 1
+protocol.name : ESB.c.MemoryArray[0],   execution_count: 22
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+b successful entanglement of memory with the node:  c
+Time of entanglement success: 3983253325130.0
+Start Time: 3.9820031501199997 , End Time: 3.9832533251299997 , execution time: 0.00125017501
+execution counter: 1
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 894
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 895
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 896
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 897
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 898
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 899
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 900
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 901
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 902
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 903
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 904
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 905
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 906
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 907
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 908
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 909
+protocol.name : EGA.c.MemoryArray[1],   execution_count: 910
+A memories
+Index:	Entangled Node:	Fidelity:	Entanglement Time:	State:
+0     	d              	0.8009715582944874	3.97825332511	ENTANGLED
+1     	None           	0        	-1e-12	RAW
+2     	None           	0        	-1e-12	RAW
+3     	None           	0        	-1e-12	RAW
+4     	None           	0        	-1e-12	RAW
+5     	None           	0        	-1e-12	RAW
+6     	None           	0        	-1e-12	RAW
+7     	None           	0        	-1e-12	RAW
+8     	None           	0        	-1e-12	RAW
+9     	None           	0        	-1e-12	RAW
+10    	None           	0        	-1e-12	RAW
+11    	None           	0        	-1e-12	RAW
+12    	None           	0        	-1e-12	RAW
+13    	None           	0        	-1e-12	RAW
+14    	None           	0        	-1e-12	RAW
+15    	None           	0        	-1e-12	RAW
+16    	None           	0        	-1e-12	RAW
+17    	None           	0        	-1e-12	RAW
+18    	None           	0        	-1e-12	RAW
+19    	None           	0        	-1e-12	RAW
+20    	None           	0        	-1e-12	RAW
+21    	None           	0        	-1e-12	RAW
+22    	None           	0        	-1e-12	RAW
+23    	None           	0        	-1e-12	RAW
+24    	None           	0        	-1e-12	RAW
+25    	None           	0        	-1e-12	RAW
+26    	None           	0        	-1e-12	RAW
+27    	None           	0        	-1e-12	RAW
+28    	None           	0        	-1e-12	RAW
+29    	None           	0        	-1e-12	RAW
+30    	None           	0        	-1e-12	RAW
+31    	None           	0        	-1e-12	RAW
+32    	None           	0        	-1e-12	RAW
+33    	None           	0        	-1e-12	RAW
+34    	None           	0        	-1e-12	RAW
+35    	None           	0        	-1e-12	RAW
+36    	None           	0        	-1e-12	RAW
+37    	None           	0        	-1e-12	RAW
+38    	None           	0        	-1e-12	RAW
+39    	None           	0        	-1e-12	RAW
+40    	None           	0        	-1e-12	RAW
+41    	None           	0        	-1e-12	RAW
+42    	None           	0        	-1e-12	RAW
+43    	None           	0        	-1e-12	RAW
+44    	None           	0        	-1e-12	RAW
+45    	None           	0        	-1e-12	RAW
+46    	None           	0        	-1e-12	RAW
+47    	None           	0        	-1e-12	RAW
+48    	None           	0        	-1e-12	RAW
+49    	None           	0        	-1e-12	RAW
+B memories
+Index:	Entangled Node:	Fidelity:	Entanglement Time:
+0     	None           	0        	3.97050280012	OCCUPIED
+1     	c              	0.9349367588934053	3.9832533251299997	ENTANGLED
+2     	None           	0        	-1e-12	RAW
+3     	None           	0        	-1e-12	RAW
+4     	None           	0        	-1e-12	RAW
+5     	None           	0        	-1e-12	RAW
+6     	None           	0        	-1e-12	RAW
+7     	None           	0        	-1e-12	RAW
+8     	None           	0        	-1e-12	RAW
+9     	None           	0        	-1e-12	RAW
+10    	None           	0        	-1e-12	RAW
+11    	None           	0        	-1e-12	RAW
+12    	None           	0        	-1e-12	RAW
+13    	None           	0        	-1e-12	RAW
+14    	None           	0        	-1e-12	RAW
+15    	None           	0        	-1e-12	RAW
+16    	None           	0        	-1e-12	RAW
+17    	None           	0        	-1e-12	RAW
+18    	None           	0        	-1e-12	RAW
+19    	None           	0        	-1e-12	RAW
+20    	None           	0        	-1e-12	RAW
+21    	None           	0        	-1e-12	RAW
+22    	None           	0        	-1e-12	RAW
+23    	None           	0        	-1e-12	RAW
+24    	None           	0        	-1e-12	RAW
+25    	None           	0        	-1e-12	RAW
+26    	None           	0        	-1e-12	RAW
+27    	None           	0        	-1e-12	RAW
+28    	None           	0        	-1e-12	RAW
+29    	None           	0        	-1e-12	RAW
+30    	None           	0        	-1e-12	RAW
+31    	None           	0        	-1e-12	RAW
+32    	None           	0        	-1e-12	RAW
+33    	None           	0        	-1e-12	RAW
+34    	None           	0        	-1e-12	RAW
+35    	None           	0        	-1e-12	RAW
+36    	None           	0        	-1e-12	RAW
+37    	None           	0        	-1e-12	RAW
+38    	None           	0        	-1e-12	RAW
+39    	None           	0        	-1e-12	RAW
+40    	None           	0        	-1e-12	RAW
+41    	None           	0        	-1e-12	RAW
+42    	None           	0        	-1e-12	RAW
+43    	None           	0        	-1e-12	RAW
+44    	None           	0        	-1e-12	RAW
+45    	None           	0        	-1e-12	RAW
+46    	None           	0        	-1e-12	RAW
+47    	None           	0        	-1e-12	RAW
+48    	None           	0        	-1e-12	RAW
+49    	None           	0        	-1e-12	RAW
+C memories
+Index:	Entangled Node:	Fidelity:	Entanglement Time:
+0     	b              	0.9349367588934053	3.9832533251299997	OCCUPIED
+1     	None           	0        	3.99975332511	OCCUPIED
+2     	None           	0        	-1e-12	RAW
+3     	None           	0        	-1e-12	RAW
+4     	None           	0        	-1e-12	RAW
+5     	None           	0        	-1e-12	RAW
+6     	None           	0        	-1e-12	RAW
+7     	None           	0        	-1e-12	RAW
+8     	None           	0        	-1e-12	RAW
+9     	None           	0        	-1e-12	RAW
+10    	None           	0        	-1e-12	RAW
+11    	None           	0        	-1e-12	RAW
+12    	None           	0        	-1e-12	RAW
+13    	None           	0        	-1e-12	RAW
+14    	None           	0        	-1e-12	RAW
+15    	None           	0        	-1e-12	RAW
+16    	None           	0        	-1e-12	RAW
+17    	None           	0        	-1e-12	RAW
+18    	None           	0        	-1e-12	RAW
+19    	None           	0        	-1e-12	RAW
+20    	None           	0        	-1e-12	RAW
+21    	None           	0        	-1e-12	RAW
+22    	None           	0        	-1e-12	RAW
+23    	None           	0        	-1e-12	RAW
+24    	None           	0        	-1e-12	RAW
+25    	None           	0        	-1e-12	RAW
+26    	None           	0        	-1e-12	RAW
+27    	None           	0        	-1e-12	RAW
+28    	None           	0        	-1e-12	RAW
+29    	None           	0        	-1e-12	RAW
+30    	None           	0        	-1e-12	RAW
+31    	None           	0        	-1e-12	RAW
+32    	None           	0        	-1e-12	RAW
+33    	None           	0        	-1e-12	RAW
+34    	None           	0        	-1e-12	RAW
+35    	None           	0        	-1e-12	RAW
+36    	None           	0        	-1e-12	RAW
+37    	None           	0        	-1e-12	RAW
+38    	None           	0        	-1e-12	RAW
+39    	None           	0        	-1e-12	RAW
+40    	None           	0        	-1e-12	RAW
+41    	None           	0        	-1e-12	RAW
+42    	None           	0        	-1e-12	RAW
+43    	None           	0        	-1e-12	RAW
+44    	None           	0        	-1e-12	RAW
+45    	None           	0        	-1e-12	RAW
+46    	None           	0        	-1e-12	RAW
+47    	None           	0        	-1e-12	RAW
+48    	None           	0        	-1e-12	RAW
+49    	None           	0        	-1e-12	RAW
+D memories
+Index:	Entangled Node:	Fidelity:	Entanglement Time:	State:
+0     	a              	0.8009715582944874	3.97825332511	ENTANGLED
+1     	None           	0        	-1e-12	RAW
+2     	None           	0        	-1e-12	RAW
+3     	None           	0        	-1e-12	RAW
+4     	None           	0        	-1e-12	RAW
+5     	None           	0        	-1e-12	RAW
+6     	None           	0        	-1e-12	RAW
+7     	None           	0        	-1e-12	RAW
+8     	None           	0        	-1e-12	RAW
+9     	None           	0        	-1e-12	RAW
+10    	None           	0        	-1e-12	RAW
+11    	None           	0        	-1e-12	RAW
+12    	None           	0        	-1e-12	RAW
+13    	None           	0        	-1e-12	RAW
+14    	None           	0        	-1e-12	RAW
+15    	None           	0        	-1e-12	RAW
+16    	None           	0        	-1e-12	RAW
+17    	None           	0        	-1e-12	RAW
+18    	None           	0        	-1e-12	RAW
+19    	None           	0        	-1e-12	RAW
+20    	None           	0        	-1e-12	RAW
+21    	None           	0        	-1e-12	RAW
+22    	None           	0        	-1e-12	RAW
+23    	None           	0        	-1e-12	RAW
+24    	None           	0        	-1e-12	RAW
+25    	None           	0        	-1e-12	RAW
+26    	None           	0        	-1e-12	RAW
+27    	None           	0        	-1e-12	RAW
+28    	None           	0        	-1e-12	RAW
+29    	None           	0        	-1e-12	RAW
+30    	None           	0        	-1e-12	RAW
+31    	None           	0        	-1e-12	RAW
+32    	None           	0        	-1e-12	RAW
+33    	None           	0        	-1e-12	RAW
+34    	None           	0        	-1e-12	RAW
+35    	None           	0        	-1e-12	RAW
+36    	None           	0        	-1e-12	RAW
+37    	None           	0        	-1e-12	RAW
+38    	None           	0        	-1e-12	RAW
+39    	None           	0        	-1e-12	RAW
+40    	None           	0        	-1e-12	RAW
+41    	None           	0        	-1e-12	RAW
+42    	None           	0        	-1e-12	RAW
+43    	None           	0        	-1e-12	RAW
+44    	None           	0        	-1e-12	RAW
+45    	None           	0        	-1e-12	RAW
+46    	None           	0        	-1e-12	RAW
+47    	None           	0        	-1e-12	RAW
+48    	None           	0        	-1e-12	RAW
+49    	None           	0        	-1e-12	RAW

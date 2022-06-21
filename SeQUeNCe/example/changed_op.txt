@@ -1,0 +1,250 @@
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 100
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 101
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 150
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 51
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 50
+Successful entanglement self.bsm_res[0]: 0   and   self.bsm_res[1]:  1   and   self._qstate_key: 0
+A memories
+Index:	Entangled Node:	Fidelity:	Entanglement Time:	State:
+0     	b              	0.9349367588934053	3.92300140005	OCCUPIED
+1     	None           	0        	-1e-12	RAW
+2     	None           	0        	-1e-12	RAW
+3     	None           	0        	-1e-12	RAW
+4     	None           	0        	-1e-12	RAW
+5     	None           	0        	-1e-12	RAW
+6     	None           	0        	-1e-12	RAW
+7     	None           	0        	-1e-12	RAW
+8     	None           	0        	-1e-12	RAW
+9     	None           	0        	-1e-12	RAW
+10    	None           	0        	-1e-12	RAW
+11    	None           	0        	-1e-12	RAW
+12    	None           	0        	-1e-12	RAW
+13    	None           	0        	-1e-12	RAW
+14    	None           	0        	-1e-12	RAW
+15    	None           	0        	-1e-12	RAW
+16    	None           	0        	-1e-12	RAW
+17    	None           	0        	-1e-12	RAW
+18    	None           	0        	-1e-12	RAW
+19    	None           	0        	-1e-12	RAW
+20    	None           	0        	-1e-12	RAW
+21    	None           	0        	-1e-12	RAW
+22    	None           	0        	-1e-12	RAW
+23    	None           	0        	-1e-12	RAW
+24    	None           	0        	-1e-12	RAW
+25    	None           	0        	-1e-12	RAW
+26    	None           	0        	-1e-12	RAW
+27    	None           	0        	-1e-12	RAW
+28    	None           	0        	-1e-12	RAW
+29    	None           	0        	-1e-12	RAW
+30    	None           	0        	-1e-12	RAW
+31    	None           	0        	-1e-12	RAW
+32    	None           	0        	-1e-12	RAW
+33    	None           	0        	-1e-12	RAW
+34    	None           	0        	-1e-12	RAW
+35    	None           	0        	-1e-12	RAW
+36    	None           	0        	-1e-12	RAW
+37    	None           	0        	-1e-12	RAW
+38    	None           	0        	-1e-12	RAW
+39    	None           	0        	-1e-12	RAW
+40    	None           	0        	-1e-12	RAW
+41    	None           	0        	-1e-12	RAW
+42    	None           	0        	-1e-12	RAW
+43    	None           	0        	-1e-12	RAW
+44    	None           	0        	-1e-12	RAW
+45    	None           	0        	-1e-12	RAW
+46    	None           	0        	-1e-12	RAW
+47    	None           	0        	-1e-12	RAW
+48    	None           	0        	-1e-12	RAW
+49    	None           	0        	-1e-12	RAW
+B memories
+Index:	Entangled Node:	Fidelity:	Entanglement Time:
+0     	a              	0.9349367588934053	3.99900140005	OCCUPIED
+1     	c              	0.9349367588934053	3.99900140005	OCCUPIED
+2     	None           	0        	-1e-12	RAW
+3     	None           	0        	-1e-12	RAW
+4     	None           	0        	-1e-12	RAW
+5     	None           	0        	-1e-12	RAW
+6     	None           	0        	-1e-12	RAW
+7     	None           	0        	-1e-12	RAW
+8     	None           	0        	-1e-12	RAW
+9     	None           	0        	-1e-12	RAW
+10    	None           	0        	-1e-12	RAW
+11    	None           	0        	-1e-12	RAW
+12    	None           	0        	-1e-12	RAW
+13    	None           	0        	-1e-12	RAW
+14    	None           	0        	-1e-12	RAW
+15    	None           	0        	-1e-12	RAW
+16    	None           	0        	-1e-12	RAW
+17    	None           	0        	-1e-12	RAW
+18    	None           	0        	-1e-12	RAW
+19    	None           	0        	-1e-12	RAW
+20    	None           	0        	-1e-12	RAW
+21    	None           	0        	-1e-12	RAW
+22    	None           	0        	-1e-12	RAW
+23    	None           	0        	-1e-12	RAW
+24    	None           	0        	-1e-12	RAW
+25    	None           	0        	-1e-12	RAW
+26    	None           	0        	-1e-12	RAW
+27    	None           	0        	-1e-12	RAW
+28    	None           	0        	-1e-12	RAW
+29    	None           	0        	-1e-12	RAW
+30    	None           	0        	-1e-12	RAW
+31    	None           	0        	-1e-12	RAW
+32    	None           	0        	-1e-12	RAW
+33    	None           	0        	-1e-12	RAW
+34    	None           	0        	-1e-12	RAW
+35    	None           	0        	-1e-12	RAW
+36    	None           	0        	-1e-12	RAW
+37    	None           	0        	-1e-12	RAW
+38    	None           	0        	-1e-12	RAW
+39    	None           	0        	-1e-12	RAW
+40    	None           	0        	-1e-12	RAW
+41    	None           	0        	-1e-12	RAW
+42    	None           	0        	-1e-12	RAW
+43    	None           	0        	-1e-12	RAW
+44    	None           	0        	-1e-12	RAW
+45    	None           	0        	-1e-12	RAW
+46    	None           	0        	-1e-12	RAW
+47    	None           	0        	-1e-12	RAW
+48    	None           	0        	-1e-12	RAW
+49    	None           	0        	-1e-12	RAW
+C memories
+Index:	Entangled Node:	Fidelity:	Entanglement Time:
+0     	None           	0        	3.92275192508	OCCUPIED
+1     	d              	0.9349367588934053	3.9185010500399997	ENTANGLED
+2     	None           	0        	-1e-12	RAW
+3     	None           	0        	-1e-12	RAW
+4     	None           	0        	-1e-12	RAW
+5     	None           	0        	-1e-12	RAW
+6     	None           	0        	-1e-12	RAW
+7     	None           	0        	-1e-12	RAW
+8     	None           	0        	-1e-12	RAW
+9     	None           	0        	-1e-12	RAW
+10    	None           	0        	-1e-12	RAW
+11    	None           	0        	-1e-12	RAW
+12    	None           	0        	-1e-12	RAW
+13    	None           	0        	-1e-12	RAW
+14    	None           	0        	-1e-12	RAW
+15    	None           	0        	-1e-12	RAW
+16    	None           	0        	-1e-12	RAW
+17    	None           	0        	-1e-12	RAW
+18    	None           	0        	-1e-12	RAW
+19    	None           	0        	-1e-12	RAW
+20    	None           	0        	-1e-12	RAW
+21    	None           	0        	-1e-12	RAW
+22    	None           	0        	-1e-12	RAW
+23    	None           	0        	-1e-12	RAW
+24    	None           	0        	-1e-12	RAW
+25    	None           	0        	-1e-12	RAW
+26    	None           	0        	-1e-12	RAW
+27    	None           	0        	-1e-12	RAW
+28    	None           	0        	-1e-12	RAW
+29    	None           	0        	-1e-12	RAW
+30    	None           	0        	-1e-12	RAW
+31    	None           	0        	-1e-12	RAW
+32    	None           	0        	-1e-12	RAW
+33    	None           	0        	-1e-12	RAW
+34    	None           	0        	-1e-12	RAW
+35    	None           	0        	-1e-12	RAW
+36    	None           	0        	-1e-12	RAW
+37    	None           	0        	-1e-12	RAW
+38    	None           	0        	-1e-12	RAW
+39    	None           	0        	-1e-12	RAW
+40    	None           	0        	-1e-12	RAW
+41    	None           	0        	-1e-12	RAW
+42    	None           	0        	-1e-12	RAW
+43    	None           	0        	-1e-12	RAW
+44    	None           	0        	-1e-12	RAW
+45    	None           	0        	-1e-12	RAW
+46    	None           	0        	-1e-12	RAW
+47    	None           	0        	-1e-12	RAW
+48    	None           	0        	-1e-12	RAW
+49    	None           	0        	-1e-12	RAW
+D memories
+Index:	Entangled Node:	Fidelity:	Entanglement Time:	State:
+0     	c              	0.9349367588934053	3.9185010500399997	OCCUPIED
+1     	None           	0        	-1e-12	RAW
+2     	None           	0        	-1e-12	RAW
+3     	None           	0        	-1e-12	RAW
+4     	None           	0        	-1e-12	RAW
+5     	None           	0        	-1e-12	RAW
+6     	None           	0        	-1e-12	RAW
+7     	None           	0        	-1e-12	RAW
+8     	None           	0        	-1e-12	RAW
+9     	None           	0        	-1e-12	RAW
+10    	None           	0        	-1e-12	RAW
+11    	None           	0        	-1e-12	RAW
+12    	None           	0        	-1e-12	RAW
+13    	None           	0        	-1e-12	RAW
+14    	None           	0        	-1e-12	RAW
+15    	None           	0        	-1e-12	RAW
+16    	None           	0        	-1e-12	RAW
+17    	None           	0        	-1e-12	RAW
+18    	None           	0        	-1e-12	RAW
+19    	None           	0        	-1e-12	RAW
+20    	None           	0        	-1e-12	RAW
+21    	None           	0        	-1e-12	RAW
+22    	None           	0        	-1e-12	RAW
+23    	None           	0        	-1e-12	RAW
+24    	None           	0        	-1e-12	RAW
+25    	None           	0        	-1e-12	RAW
+26    	None           	0        	-1e-12	RAW
+27    	None           	0        	-1e-12	RAW
+28    	None           	0        	-1e-12	RAW
+29    	None           	0        	-1e-12	RAW
+30    	None           	0        	-1e-12	RAW
+31    	None           	0        	-1e-12	RAW
+32    	None           	0        	-1e-12	RAW
+33    	None           	0        	-1e-12	RAW
+34    	None           	0        	-1e-12	RAW
+35    	None           	0        	-1e-12	RAW
+36    	None           	0        	-1e-12	RAW
+37    	None           	0        	-1e-12	RAW
+38    	None           	0        	-1e-12	RAW
+39    	None           	0        	-1e-12	RAW
+40    	None           	0        	-1e-12	RAW
+41    	None           	0        	-1e-12	RAW
+42    	None           	0        	-1e-12	RAW
+43    	None           	0        	-1e-12	RAW
+44    	None           	0        	-1e-12	RAW
+45    	None           	0        	-1e-12	RAW
+46    	None           	0        	-1e-12	RAW
+47    	None           	0        	-1e-12	RAW
+48    	None           	0        	-1e-12	RAW
+49    	None           	0        	-1e-12	RAW
