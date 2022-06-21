@@ -1,0 +1,154 @@
+pta // model is a PTA
+
+const double pm;
+const double pe; // probability of failure for entanglement pair generation/bell-state measurement process
+
+const int mu; // time limit for the total end-to-end entanglement generation.
+const int tau; // threshold life time of an entanglement pair generated.
+
+const int tgen;
+const int tbsm;
+
+// const int fail_th=5;
+// ab, bc; ac
+
+module scheduler
+
+	task1 : [0..4]; // AB
+	task2 : [0..4]; // BC 
+	task3 : [0..4]; // AC
+
+	// t : clock; // local clock
+	c1 : clock;
+	c2 : clock;
+	c3 : clock;
+
+	start : [0..1] init 0;
+	done : [0..1] init 0;
+	
+	invariant
+		(task1=3 => c1<=tau) &
+		(task2=3 => c2<=tau) &
+		(task3=3 => c3<=tau)
+	endinvariant	
+
+	// [] start=0 -> (start'=1)&(t'=0);
+
+	[p1_entangle_ab] (task1=0) -> (task1'=1);
+	[p2_entangle_ab] (task1=0) -> (task1'=2);
+
+	[p1_entangle_bc] (task2=0) -> (task2'=1);
+	[p2_entangle_bc] (task2=0) -> (task2'=2);
+
+	[p1_measure_ac] (task3=0)&(task1=3)&(task2=3) -> (task3'=1);
+	[p2_measure_ac] (task3=0)&(task1=3)&(task2=3) -> (task3'=2);
+
+	[p1_done] task1=1 -> (task1'=3)&(c1'=0);
+	[p1_done] task2=1 -> (task2'=3)&(c2'=0);
+	[p1_done] (task3=1)&((task1!=3)|(task2!=3)) -> (task3'=0);
+	[p1_done] (task3=1)&(task1=3)&(task2=3) -> (task3'=3)&(c3'=0);
+
+	[p2_done] task1=2 -> (task1'=3)&(c1'=0);
+	[p2_done] task2=2 -> (task2'=3)&(c2'=0);
+	[p2_done] (task3=2)&((task1!=3)|(task2!=3)) -> (task3'=0);
+	[p2_done] (task3=2)&(task1=3)&(task2=3) -> (task3'=3)&(c3'=0);
+
+	[p1_fail] task1=1 -> (task1'=0);
+	[p1_fail] task2=1 -> (task2'=0);
+	[p1_fail] task3=1 -> (task3'=4);
+	
+	[p2_fail] task1=2 -> (task1'=0);
+	[p2_fail] task2=2 -> (task2'=0);
+	[p2_fail] task3=2 -> (task3'=4);
+	
+	[] (task1=3)&(c1=tau)&(task3!=3) -> (task1'=0);
+	[] (task1=3)&(task3=3) -> (task1'=4);
+	[] (task2=3)&(c2=tau)&(task3!=3) -> (task2'=0);
+	[] (task2=3)&(task3=3) -> (task2'=4);
+	[] (task3=3)&(c3=tau) -> (task3'=4);
+
+	[] (task3=3) -> (done'=1);
+
+endmodule
+
+module P1
+
+	p1 : [0..4];
+	// 0 - idle
+	// 1 - ab entangle 
+	// 2 - bc entangle 
+	// 3 - ac measure  
+	// 4 - done
+
+	fail1 : [0..1]; // failed to complete task
+	
+	x1 : clock; // local clock
+
+	invariant
+        (p1=1 => x1<=tgen) &
+        (p1=2 => x1<=tgen) &
+        (p1=3 => x1<=tbsm) &
+        (p1=4 => x1<=0)
+    endinvariant
+
+	// entanglement
+	[p1_entangle_ab] p1=0 -> (p1'=1) & (x1'=0); // start
+	[] p1=1 & x1=tgen -> (1-pe) : (fail1'=1) & (p1'=4) & (x1'=0)  // fail
+	                + pe : (fail1'=0) & (p1'=4) & (x1'=0); // finish
+
+	[p1_entangle_bc] p1=0 -> (p1'=2) & (x1'=0); // start
+	[] p1=2 & x1=tgen -> (1-pe) : (fail1'=1) & (p1'=4) & (x1'=0)  // fail
+	                + pe : (fail1'=0) & (p1'=4) & (x1'=0); // finish
+
+	// measurement
+	[p1_measure_ac] p1=0 -> (p1'=3) & (x1'=0); // start
+	[] p1=3 & x1=tbsm -> (1-pm) : (fail1'=1) & (p1'=4) & (x1'=0) // fail
+	                + pm : (fail1'=0) & (p1'=4) & (x1'=0); // finish
+
+	[p1_fail] p1=4 & fail1=1 -> (p1'=0) & (x1'=0) & (fail1'=0); // failed
+	[p1_done] p1=4 & fail1=0 -> (p1'=0) & (x1'=0) & (fail1'=0); // completed
+
+endmodule
+
+module P2
+
+	p2 : [0..4];
+	// 0 - idle
+	// 1 - ab entangle 
+	// 2 - bc entangle 
+	// 3 - ac measure  
+	// 4 - done
+	fail2 : [0..1]; // failed to complete task
+	
+	x2 : clock; // local clock
+
+	invariant
+        (p2=1 => x2<=tgen) &
+        (p2=2 => x2<=tgen) &
+        (p2=3 => x2<=tbsm) &
+        (p2=4 => x2<=0)
+    endinvariant
+
+	// entanglement
+	[p2_entangle_ab] p2=0 -> (p2'=1) & (x2'=0); // start
+	[] p2=1 & x2=tgen -> (1-pe) : (fail2'=1) & (p2'=4) & (x2'=0)  // fail
+	                + pe : (fail2'=0) & (p2'=4) & (x2'=0); // finish
+
+	[p2_entangle_bc] p2=0 -> (p2'=2) & (x2'=0); // start
+	[] p2=2 & x2=tgen -> (1-pe) : (fail2'=1) & (p2'=4) & (x2'=0)  // fail
+	                + pe : (fail2'=0) & (p2'=4) & (x2'=0); // finish
+
+	// measurement
+	[p2_measure_ac] p2=0 -> (p2'=3) & (x2'=0); // start
+	[] p2=3 & x2=tbsm -> (1-pm) : (fail2'=1) & (p2'=4) & (x2'=0) // fail
+	                + pm : (fail2'=0) & (p2'=4) & (x2'=0); // finish
+
+	[p2_fail] p2=4 & fail2=1 -> (p2'=0) & (x2'=0) & (fail2'=0); // failed
+	[p2_done] p2=4 & fail2=0 -> (p2'=0) & (x2'=0) & (fail2'=0); // completed
+
+endmodule
+
+// target state (all tasks complete)
+label "tasks_complete" = (done=1);
+
+
