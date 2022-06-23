@@ -49,7 +49,7 @@ def plot(x_range, x_label, success_model_val, success_prob_range):
     Max succ prob vs tau
 """
 def vs_tau():
-    filenames = ['tau', 'simulator-tau']
+    filenames = ['model-tau', 'simulator-tau']
     tau_range, success_model_val, success_prob_range = read_xls(filenames)
     plot(tau_range, 'tau', success_model_val, success_prob_range)
 
@@ -57,7 +57,7 @@ def vs_tau():
     Max succ prob vs p_gen
 """
 def vs_p_gen():
-    filenames = ['pe', 'simulator-pgen']
+    filenames = ['model-pgen', 'simulator-pgen']
     p_gen_range, success_model_val, success_prob_range = read_xls(filenames)
     plot(p_gen_range, 'pgen', success_model_val, success_prob_range)
 
@@ -65,7 +65,7 @@ def vs_p_gen():
     Max succ prob vs p_bsm
 """
 def vs_p_bsm():
-    filenames = ['pm', 'simulator-pbsm']
+    filenames = ['model-pbsm', 'simulator-pbsm']
     p_bsm_range, success_model_val, success_prob_range = read_xls(filenames)
     plot(p_bsm_range, 'pbsm', success_model_val, success_prob_range)
 
@@ -73,7 +73,7 @@ def vs_p_bsm():
     Max succ prob vs t_gen
 """
 def vs_t_gen():
-    filenames = ['tgen', 'simulator-tgen']
+    filenames = ['model-tgen', 'simulator-tgen']
     t_gen_range, success_model_val, success_prob_range = read_xls(filenames)
     plot(t_gen_range, 'tgen', success_model_val, success_prob_range)
 
@@ -81,7 +81,7 @@ def vs_t_gen():
     Max succ prob vs t_bsm
 """
 def vs_t_bsm():
-    filenames = ['tbsm', 'simulator-tbsm']
+    filenames = ['model-tbsm', 'simulator-tbsm']
     t_bsm_range, success_model_val, success_prob_range = read_xls(filenames)
     plot(t_bsm_range, 'tbsm', success_model_val, success_prob_range)
 
@@ -89,7 +89,7 @@ def vs_t_bsm():
     Max succ prob vs mu
 """
 def vs_mu():
-    filenames = ['mu', 'simulator-mu']
+    filenames = ['model-mu', 'simulator-mu']
     mu_range, success_model_val, success_prob_range = read_xls(filenames)
     plot(mu_range, 'mu', success_model_val, success_prob_range)
 
