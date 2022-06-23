@@ -3,8 +3,12 @@
 set -x
 
 mkdir results
+mkdir figures
 
 cd prism/
+
+CURRDIR=$(pwd)
+export PATH="${CURRDIR}/prism/prism/bin:$PATH"
 
 prism model.prism prop.props -const mu=50,tau=0:5:50,pe=0.5,pm=0.5,tgen=5,tbsm=10 -exportresults ../results/model-tau.csv:csv -ptamethod digital
 prism model.prism prop.props -const mu=10:10:100,tau=15,pe=0.5,pm=0.5,tgen=5,tbsm=10 -exportresults ../results/model-mu.csv:csv -ptamethod digital
@@ -19,8 +23,6 @@ cd SeQUeNCe/example
 python main.py
 
 cd ../../
-
-mkdir figures
 
 python plot.py
 

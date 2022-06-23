@@ -19,5 +19,3 @@ git clone https://github.com/prismmodelchecker/prism.git
 # (should ultimately display: "Testing result: PASS")
 (cd prism/prism && make && make test)
 
-CURRDIR=$(pwd)
-export PATH="${CURRDIR}/prism/prism/bin:$PATH"
