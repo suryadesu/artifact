@@ -19,9 +19,3 @@ Or, using the included makefile,
 $ make install
 ```
 This will install the sequence library as well as the numpy, json5, and pandas dependancies.
-
-## Usage Examples
-Many examples of SeQUeNCe in action can be found in the example folder. These include both quantum key distribution and entanglement distribution examples.
-
-### Starlight Experiments
-Code for the experiments performed in our paper can be found in the file `starlight_experiments.py`. This script uses the `starlight.json` file (also within the example folder) to specify the network topology.
