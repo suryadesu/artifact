@@ -18,3 +18,6 @@ git clone https://github.com/prismmodelchecker/prism.git
 # Compile PRISM and run a single test
 # (should ultimately display: "Testing result: PASS")
 (cd prism/prism && make && make test)
+
+CURRDIR=$(pwd)
+export PATH="${CURRDIR}/prism/prism/bin:$PATH"

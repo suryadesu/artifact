@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 #To read both model and simulator's data
 def read_xls(filenames):
-    RESULTS_PATH = "../../prism/results"
+    RESULTS_PATH = "./results"
     file1_path = RESULTS_PATH + "/" + filenames[0] + ".csv"
     file2_path = RESULTS_PATH + "/" + filenames[1] + ".csv"
     success_model_val = []
@@ -36,12 +36,13 @@ def plot(x_range, x_label, success_model_val, success_prob_range):
     print(f'success_model_val: {success_model_val}')
     print(f'success_prob_range: {success_prob_range}')
     fig, ax = plt.subplots() 
-    ax.plot(x_range, success_prob_range, color = 'red')
-    ax.plot(x_range, success_model_val, color='blue')
+    ax.plot(x_range, success_model_val, color='blue',marker=(4,0,45),fillstyle='none')
+    ax.plot(x_range, success_prob_range, color = 'red',marker=(3,0,0),fillstyle='none')
     ax.set_ylim(ymin=0, ymax=1)
+    ax.legend(['Model','Simulator'],loc='upper left')
     plt.xlabel(x_label)
-    plt.ylabel('Success Probability')
-    plt.savefig(x_label+'.png')
+    plt.ylabel('Maximum Success Probability')
+    plt.savefig('./figures/'+x_label+'.png')
     plt.show()
 
 """

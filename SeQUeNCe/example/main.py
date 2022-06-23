@@ -143,7 +143,7 @@ def vs_tau():
 #To write simulator's data to an output file
 def write_xls(x_vals, succ_probs, choice):
     header = choice+',result\n'
-    with open("../../prism/results/simulator-"+choice+".csv",'w') as fout:
+    with open("../../results/simulator-"+choice+".csv",'w') as fout:
         fout.write(header)
         for i in range(len(x_vals)):
             fout.write(str(x_vals[i])+","+str(succ_probs[i]))
