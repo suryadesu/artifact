@@ -189,7 +189,7 @@ def run_simulation(max_execution_time, epr_life, gen_success_probability, swap_s
             return False, total_time_taken, tl.hasSwapFailed
 
     success_count, over_time_limit, swap_failed = 0, 0, 0
-    total_trials =2000
+    total_trials =100
     times = {'0'}
     for i in range(total_trials):
         # tl = Timeline(4e12)

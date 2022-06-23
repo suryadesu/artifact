@@ -33,10 +33,11 @@ def read_xls(filenames):
 
 def plot(x_range, x_label, success_model_val, success_prob_range):
     print(f'x_range: {x_range}')
+    print(f'success_model_val: {success_model_val}')
     print(f'success_prob_range: {success_prob_range}')
     fig, ax = plt.subplots() 
-    ax.plot(x_range, success_prob_range, color = 'blue')
-    ax.plot(x_range, success_model_val, color='red')
+    ax.plot(x_range, success_prob_range, color = 'red')
+    ax.plot(x_range, success_model_val, color='blue')
     ax.set_ylim(ymin=0, ymax=1)
     plt.xlabel(x_label)
     plt.ylabel('Success Probability')
