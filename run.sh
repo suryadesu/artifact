@@ -24,3 +24,4 @@ cd ../../
 
 python3 plot.py
 
+cd ../../
