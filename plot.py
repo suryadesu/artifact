@@ -38,14 +38,12 @@ def plot(x_range, x_label, success_model_val, success_prob_range):
     print(f'success_prob_range: {success_prob_range}')
     fig, ax = plt.subplots() 
     ax.plot(x_range, success_model_val, color='blue',marker=(4,0,45),fillstyle='none')
-    print("check")
     ax.plot(x_range, success_prob_range, color = 'red',marker=(3,0,0),fillstyle='none')
     ax.set_ylim(ymin=0, ymax=1)
     ax.legend(['Model','Simulator'],loc='upper left')
     plt.xlabel(relations[x_label][0])
     plt.ylabel('Maximum Success Probability')
     plt.savefig('./figures/'+relations[x_label][1]+'.png')
-    print("check")
 
 """
     Max succ prob vs tau
