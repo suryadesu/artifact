@@ -1,6 +1,9 @@
-numpy
+wheel
+numpy<1.22
 matplotlib
-json5==0.8.4
-pandas==0.24.2
-qutip==4.6.0.dev
+pandas
+qutip>=4.6.0
+tqdm>=4.54.0
 networkx
+json5==0.8.4
+

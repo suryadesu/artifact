@@ -15,7 +15,7 @@ def run_simulation(max_execution_time, epr_life, gen_success_probability, swap_s
 
     def iteration():
         random.seed(0)
-        network_config = "../example/linear-3-node.json"
+        network_config = "../simulation-3nodes/linear-3-node.json"
         # network_config = "../example/linear-4-node.json"
         # network_config = "../example/linear-2-node.json"
 
