@@ -1,6 +1,7 @@
 import sys
 import matplotlib.pyplot as plt
 
+relations = {'tau' : ['Lifetime of an EPR pair', '6a'], 'mu' : ['Total time', '6b'],'pgen' : ['Probability of EPR pair generation','6c'], 'pbsm' : ['Probability of BSM', '6d'], 'tgen' : ['Processing time of EPR pair generation', '6e'], 'tbsm' : ['Processing time of BSM', '6f']}
 #To read both model and simulator's data
 def read_xls(filenames):
     RESULTS_PATH = "./results"
@@ -37,13 +38,14 @@ def plot(x_range, x_label, success_model_val, success_prob_range):
     print(f'success_prob_range: {success_prob_range}')
     fig, ax = plt.subplots() 
     ax.plot(x_range, success_model_val, color='blue',marker=(4,0,45),fillstyle='none')
+    print("check")
     ax.plot(x_range, success_prob_range, color = 'red',marker=(3,0,0),fillstyle='none')
     ax.set_ylim(ymin=0, ymax=1)
     ax.legend(['Model','Simulator'],loc='upper left')
-    plt.xlabel(x_label)
+    plt.xlabel(relations[x_label][0])
     plt.ylabel('Maximum Success Probability')
-    plt.savefig('./figures/'+x_label+'.png')
-    plt.show()
+    plt.savefig('./figures/'+relations[x_label][1]+'.png')
+    print("check")
 
 """
     Max succ prob vs tau
