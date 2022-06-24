@@ -9,7 +9,7 @@ def vs_mu():
     success_prob_range = []
     
     for mu in range(10, 101, 10):
-        # print(f"Running for tau = {mu}")
+        print(f"Running for mu = {mu}")
         mu_range.append(mu)
         # success_prob = run_simulation(max_execution_time = mu, epr_life = 15, gen_success_probability = 0.5, swap_succ_prob = 0.5, sim_gen_time = 0.002, model_gen_time = 5, model_swap_time = 10)
         success_prob = float(subprocess.check_output([sys.executable, "run_simulation.py", str(mu), "15", "0.5", "0.5", "0.002", "5", "10"]).decode())
@@ -30,7 +30,7 @@ def vs_t_bsm():
     success_prob_range = []
     
     for t_bsm in range(0, 51, 5):
-        # print(f"Running for t_bsm = {t_bsm}")
+        print(f"Running for t_bsm = {t_bsm}")
         t_bsm_range.append(t_bsm)
         # success_prob = run_simulation(max_execution_time = 100, epr_life = 50, gen_success_probability = 0.5, swap_succ_prob = 0.5, sim_gen_time = 0.002, model_gen_time = 10, model_swap_time = t_bsm)
         success_prob = float(subprocess.check_output([sys.executable, "run_simulation.py", "100", "50" ,"0.5", "0.5", "0.002", "10", str(t_bsm)]).decode())
@@ -54,7 +54,7 @@ def vs_t_gen():
         if t_gen == 0 :
             t_gen = 0.0000001
         
-        # print(f"Running for t_gen = {t_gen}")
+        print(f"Running for t_gen = {t_gen}")
         # success_prob = run_simulation(max_execution_time = 100, epr_life = 50, gen_success_probability = 0.5, swap_succ_prob = 0.5, sim_gen_time = 0.002, model_gen_time = t_gen, model_swap_time = 50)
         success_prob = float(subprocess.check_output([sys.executable, "run_simulation.py", "100", "50" ,"0.5", "0.5", "0.002", str(t_gen), "50"]).decode())
         print(f'Success probability : {success_prob}')
@@ -79,7 +79,7 @@ def vs_p_bsm():
     success_prob_range = []
 
     for p_bsm in range(0, 11, 1):
-        # print(f"Running for p_bsm = {p_bsm/10}")
+        print(f"Running for p_bsm = {p_bsm/10}")
         p_bsm_range.append(p_bsm/10)
         # success_prob = run_simulation(max_execution_time = 50, epr_life = 15, gen_success_probability = 0.5, swap_succ_prob = p_bsm/10, sim_gen_time = 0.002, model_gen_time = 5, model_swap_time = 10)
         success_prob = float(subprocess.check_output([sys.executable, "run_simulation.py", "50", "15" ,"0.5", str(p_bsm/10), "0.002", "5", "10"]).decode())
@@ -100,7 +100,7 @@ def vs_p_gen():
     success_prob_range = []
 
     for p_gen in range(0, 11, 1):
-        # print(f"Running for p_bsm = {p_gen/10}")
+        print(f"Running for p_gen = {p_gen/10}")
         p_gen_range.append(p_gen/10)
         #success_prob = run_simulation(max_execution_time = 50, epr_life = 15, gen_success_probability = p_gen/10, swap_succ_prob = 0.5, sim_gen_time = 0.002, model_gen_time = 5, model_swap_time = 10)
         success_prob = float(subprocess.check_output([sys.executable, "run_simulation.py", "50", "15" ,str(p_gen/10), "0.5", "0.002", "5", "10"]).decode())
@@ -121,9 +121,9 @@ def vs_tau():
     success_prob_range = []
     
     for tau in range(0, 51, 5):
+        print(f"Running for tau = {tau}")
         if tau == 0 :
             tau = 0.0000001
-
         # success_prob = run_simulation(max_execution_time = 50, epr_life = tau, gen_success_probability = 0.5, swap_succ_prob = 0.5, sim_gen_time = 0.002, model_gen_time = 5, model_swap_time = 10)
         success_prob = float(subprocess.check_output([sys.executable, "run_simulation.py", "50", str(tau) ,"0.5", "0.5", "0.002", "5", "10"]).decode())
         print(f'Success probability : {success_prob}')
