@@ -122,6 +122,7 @@ def vs_tau():
     
     for tau in range(0, 51, 5):
         print(f"Running for tau = {tau}")
+        # tau < 1 is treated as infinite lifetime by the simulator so to simulate a lifetime of 0, we use a small value close to 0 i.e. 0.0000001 for tau 
         if tau == 0 :
             tau = 0.0000001
         # success_prob = run_simulation(max_execution_time = 50, epr_life = tau, gen_success_probability = 0.5, swap_succ_prob = 0.5, sim_gen_time = 0.002, model_gen_time = 5, model_swap_time = 10)
