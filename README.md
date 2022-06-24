@@ -6,6 +6,16 @@ Instructions to use this repo are as follows
 OS : Ubuntu  
 python>=3.8  
 Java>=9  
+# Creating a virtual environment  
+We highly recommend using [virtual environment](https://docs.python.org/3/library/venv.html#:~:text=A%20virtual%20environment%20is%20a,part%20of%20your%20operating%20system.) while using this repo. Virtual environments helps to isolate versions of Python and associated pip packages, thus avoiding any dependency issues.  
+Command to create a virtual environment named ``testenv``
+```
+python3 -m venv testenv
+```
+Command to activate the virtual environment
+```
+source testenv/bin/activate
+```
 # Installing PRISM model checker  
 
 ---
