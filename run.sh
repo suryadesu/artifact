@@ -18,9 +18,9 @@ $PATH_TO_PRISM/prism model.prism prop.props -const mu=100,tau=50,pgen=0.5,pbsm=0
 cd ../
 
 cd SeQUeNCe/simulation-3nodes
-python main.py
+python3 main.py
 
 cd ../../
 
-python plot.py
+python3 plot.py
 
