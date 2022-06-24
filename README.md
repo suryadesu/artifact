@@ -20,7 +20,7 @@ PATH_TO_PRISM variable in run.sh shall be changed if the installation is done no
 # Installing SeQUeNCe simulator  
 
 ---
-SeQUeNCe simulator from the original project is reconfigured to suit our requirements. The modified code is given in ``SeQUeNCe`` directory.  
+[SeQUeNCe](https://sequence-toolbox.github.io/) simulator from the original project is reconfigured to suit our requirements. The modified code is given in ``SeQUeNCe`` directory.  
 To install, go to SeQUeNCe directory and run the following commands. 
 ```
 pip3 install -r requirements.txt  
