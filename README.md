@@ -1,4 +1,4 @@
-This repo contains source code for our paper "Model checking for Entanglment Swapping"  
+This repo contains source code for our paper "Model checking for Entanglment Swapping", Surya Sai Teja Desu, Anubhav Srivastava and M.V.Panduranga Rao, accepted at FORMATS 2022  
 # Getting this repository  
 Users can either download zip file from github or clone this repository.  
 To clone this repository use the following command
