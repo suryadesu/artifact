@@ -13,7 +13,8 @@ OS : Ubuntu
 python>=3.8  
 Java>=9  
 # Creating a virtual environment  
-We highly recommend using [virtual environment](https://docs.python.org/3/library/venv.html#:~:text=A%20virtual%20environment%20is%20a,part%20of%20your%20operating%20system.) while using this repo. Virtual environments helps to isolate versions of Python and associated pip packages, thus avoiding any dependency issues.  
+We highly recommend using [virtual environment](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment) while using this repo. Virtual environments helps to isolate versions of Python and associated pip packages, thus avoiding any dependency issues.  
+<em>Note that this step of creating virtual environment is optional but recommended.</em>  
 Command to create a virtual environment named ``testenv``
 ```
 python3 -m venv testenv
