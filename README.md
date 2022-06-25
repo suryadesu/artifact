@@ -1,4 +1,10 @@
 This repo contains source code for our paper "Model checking for Entanglment Swapping"  
+# Getting this repository  
+Users can either download zip file from github or clone this repository.  
+To clone this repository use the following command
+```
+git clone https://github.com/suryadesu/artifact/  
+```
 Instructions to use this repo are as follows  
 # Prerequisites  
 
